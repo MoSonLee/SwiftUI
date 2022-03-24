@@ -33,7 +33,7 @@ case realEstate
         case .loan:
             return "hand.wave"
         case .insurance:
-            return "lock.sheild"
+            return "lock.shield"
         case .creditCard:
             return "creditcard"
         case .cash:

@@ -8,8 +8,23 @@
 import SwiftUI
 
 struct AssetMenuGridView: View {
+    let menuList: [[AssetMenu]] = [
+        [.creditScore, .bankAcount, .investment, .loan],
+        [.insurance, .creditCard, .cash, .realEstate]
+    ]
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(spacing: 20) {
+            ForEach(menuList, id: \.self) { row in
+                HStack(spacing: 10) {
+                    ForEach(row) { menu in
+                        Button("") {
+                            print("\(menu.title)버튼 tapped")
+                        }
+                        .buttonStyle(AssetMenuButtonStyle(menu: menu))
+                    }
+                }
+            }
+        }
     }
 }
 
