@@ -36,7 +36,7 @@ struct AssetMenuButtonStyle_Previews: PreviewProvider {
             Button("") {
                 print("")
             }
-            .buttonStyle(AssetMenuButtonStyle(menu: .bankAcount))
+            .buttonStyle(AssetMenuButtonStyle(menu: .bankAccount))
             Button("") {
                 print("")
             }

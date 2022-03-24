@@ -11,7 +11,7 @@ import SwiftUI
 
 enum AssetMenu: String, Identifiable, Decodable {
 case creditScore
-case bankAcount
+case bankAccount
 case investment
 case loan
 case insurance
@@ -26,7 +26,7 @@ case realEstate
         switch self{
         case .creditScore:
             return "number.circle"
-        case .bankAcount:
+        case .bankAccount:
             return "banknote"
         case .investment:
             return "bitcoinsign.circle"
@@ -47,7 +47,7 @@ case realEstate
         switch self {
         case.creditScore:
             return "신용점수"
-        case .bankAcount:
+        case .bankAccount:
             return "계좌"
         case .investment:
             return "투자"
