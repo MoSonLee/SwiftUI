@@ -16,6 +16,9 @@
 		770B70C927EC8A4000784482 /* AssetMenuButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770B70C827EC8A4000784482 /* AssetMenuButtonStyle.swift */; };
 		770B70CB27EC8DF300784482 /* AssetMenuGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770B70CA27EC8DF300784482 /* AssetMenuGridView.swift */; };
 		770B70CD27EC8FF100784482 /* AssetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770B70CC27EC8FF100784482 /* AssetView.swift */; };
+		770B70CF27EC997900784482 /* AssetBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770B70CE27EC997900784482 /* AssetBanner.swift */; };
+		770B70D227EC99FC00784482 /* BannerCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770B70D127EC99FC00784482 /* BannerCard.swift */; };
+		770B70D627EC9C0500784482 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770B70D527EC9C0500784482 /* PageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 		770B70C827EC8A4000784482 /* AssetMenuButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetMenuButtonStyle.swift; sourceTree = "<group>"; };
 		770B70CA27EC8DF300784482 /* AssetMenuGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetMenuGridView.swift; sourceTree = "<group>"; };
 		770B70CC27EC8FF100784482 /* AssetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetView.swift; sourceTree = "<group>"; };
+		770B70CE27EC997900784482 /* AssetBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetBanner.swift; sourceTree = "<group>"; };
+		770B70D127EC99FC00784482 /* BannerCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCard.swift; sourceTree = "<group>"; };
+		770B70D527EC9C0500784482 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,13 +67,14 @@
 		770B70B527EC65D600784482 /* MyAssets */ = {
 			isa = PBXGroup;
 			children = (
+				770B70D027EC998F00784482 /* Entities */,
+				770B70D427EC9A1500784482 /* AssetMenu */,
 				770B70B627EC65D600784482 /* MyAssetsApp.swift */,
 				770B70B827EC65D600784482 /* ContentView.swift */,
+				770B70D127EC99FC00784482 /* BannerCard.swift */,
+				770B70D527EC9C0500784482 /* PageViewController.swift */,
 				770B70CC27EC8FF100784482 /* AssetView.swift */,
 				770B70C427EC6AA200784482 /* NavigationBarWithButton.swift */,
-				770B70C627EC81DF00784482 /* AssetMenu.swift */,
-				770B70C827EC8A4000784482 /* AssetMenuButtonStyle.swift */,
-				770B70CA27EC8DF300784482 /* AssetMenuGridView.swift */,
 				770B70BA27EC65D700784482 /* Assets.xcassets */,
 				770B70BC27EC65D700784482 /* Preview Content */,
 			);
@@ -80,6 +87,24 @@
 				770B70BD27EC65D700784482 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		770B70D027EC998F00784482 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				770B70C627EC81DF00784482 /* AssetMenu.swift */,
+				770B70CE27EC997900784482 /* AssetBanner.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		770B70D427EC9A1500784482 /* AssetMenu */ = {
+			isa = PBXGroup;
+			children = (
+				770B70C827EC8A4000784482 /* AssetMenuButtonStyle.swift */,
+				770B70CA27EC8DF300784482 /* AssetMenuGridView.swift */,
+			);
+			path = AssetMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,11 +178,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				770B70CB27EC8DF300784482 /* AssetMenuGridView.swift in Sources */,
+				770B70D627EC9C0500784482 /* PageViewController.swift in Sources */,
 				770B70C527EC6AA200784482 /* NavigationBarWithButton.swift in Sources */,
+				770B70CF27EC997900784482 /* AssetBanner.swift in Sources */,
 				770B70CD27EC8FF100784482 /* AssetView.swift in Sources */,
 				770B70B927EC65D600784482 /* ContentView.swift in Sources */,
 				770B70B727EC65D600784482 /* MyAssetsApp.swift in Sources */,
 				770B70C727EC81DF00784482 /* AssetMenu.swift in Sources */,
+				770B70D227EC99FC00784482 /* BannerCard.swift in Sources */,
 				770B70C927EC8A4000784482 /* AssetMenuButtonStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
