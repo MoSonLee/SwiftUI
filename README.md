@@ -2,6 +2,7 @@
 
 ### MyAssets app 구현
    ➡️ swiftUI를 사용하여 구현</br>
+   ➡️ preview를 보며 코드가 바로바로 구현되는 것을 볼 수 있음</br>
    ➡️ body에 VStack, HStack을 사용하여 구현</br>
    ➡️ JSon 파일을 decoing해 데이터를 받아옴</br>
    ➡️ swift보다 autolayout을 잡는 것이 훨씬 편함.</br>
