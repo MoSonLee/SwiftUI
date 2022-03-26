@@ -51,10 +51,10 @@ struct Center: Hashable, Decodable {
         }
     }
     
-    var coordinate: CLLocationCoordinate2D {
-        return CLLocationCoordinate2D(
-            latitude: CLLocationDegrees(self.lat) ?? .zero,
-            longitude: CLLocationDegrees(self.lng) ?? .zero
-            )
-    }
+//    var coordinate: CLLocationCoordinate2D {
+//        return CLLocationCoordinate2D(
+//            latitude: CLLocationDegrees(self.lat) ?? .zero,
+//            longitude: CLLocationDegrees(self.lng) ?? .zero
+//            )
+//    }
 }
