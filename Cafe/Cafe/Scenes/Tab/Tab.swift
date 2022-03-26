@@ -15,6 +15,7 @@ enum Tab {
         switch self {
         case .home: return Text("Home")
         case .other: return Text("Other")
+        
         }
     }
     var imageItem: Image {

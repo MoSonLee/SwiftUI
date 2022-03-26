@@ -12,6 +12,7 @@ struct CafeApp: App {
     var body: some Scene {
         WindowGroup {
             MainTabView()
+                .accentColor(.green)
         }
     }
 }
