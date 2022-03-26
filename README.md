@@ -18,4 +18,14 @@
    - swiftUI는 사용자 interface에 대한 선언적 접근 방식을 사용한다.
 
 
-![image](https://user-images.githubusercontent.com/77050826/159869093-19d8f943-a381-4485-99e9-d170822a6310.png)
+![image](https://user-images.githubusercontent.com/77050826/159869093-19d8f943-a381-4485-99e9-d170822a6310.png)</br>
+
+   - 뷰를 작성할때 차이</br>
+   - swift
+   ![image](https://user-images.githubusercontent.com/77050826/160241777-9aa15f9f-fb3a-4880-950d-a66b0af2ccc4.png)</br>
+   - swiftUI
+   ![image](https://user-images.githubusercontent.com/77050826/160241798-e36bf4a9-55b7-4464-b00c-803940131991.png)</br>
+   
+   - 훨씬 더 간단하게 코드를 구현할 수 있다.
+   - 긴딘하게 뷰만 추가해봐도 선언적 접근, 명령적 접근의 차이를 느낄 수 있다.
+
