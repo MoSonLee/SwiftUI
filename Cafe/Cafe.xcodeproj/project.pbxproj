@@ -14,6 +14,8 @@
 		77D4D60327EF444B00DFA2F9 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D4D60227EF444B00DFA2F9 /* Tab.swift */; };
 		77D4D60727EF5B7500DFA2F9 /* MenuSuggestionSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D4D60627EF5B7500DFA2F9 /* MenuSuggestionSectionView.swift */; };
 		77D4D60927EF5C3300DFA2F9 /* CoffeeMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D4D60827EF5C3300DFA2F9 /* CoffeeMenu.swift */; };
+		77D4D60B27EF62F400DFA2F9 /* EventsSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D4D60A27EF62F400DFA2F9 /* EventsSectionView.swift */; };
+		77D4D60D27EF635800DFA2F9 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D4D60C27EF635800DFA2F9 /* Event.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		77D4D60227EF444B00DFA2F9 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		77D4D60627EF5B7500DFA2F9 /* MenuSuggestionSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSuggestionSectionView.swift; sourceTree = "<group>"; };
 		77D4D60827EF5C3300DFA2F9 /* CoffeeMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeMenu.swift; sourceTree = "<group>"; };
+		77D4D60A27EF62F400DFA2F9 /* EventsSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsSectionView.swift; sourceTree = "<group>"; };
+		77D4D60C27EF635800DFA2F9 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,7 @@
 			children = (
 				77D4D5F427EF309400DFA2F9 /* CafeApp.swift */,
 				77D4D60827EF5C3300DFA2F9 /* CoffeeMenu.swift */,
+				77D4D60C27EF635800DFA2F9 /* Event.swift */,
 				77D4D60527EF5B5400DFA2F9 /* Scenes */,
 				77D4D5F827EF309400DFA2F9 /* Assets.xcassets */,
 				77D4D5FA27EF309400DFA2F9 /* Preview Content */,
@@ -88,6 +93,7 @@
 			children = (
 				77D4D60427EF5B4D00DFA2F9 /* Tab */,
 				77D4D60627EF5B7500DFA2F9 /* MenuSuggestionSectionView.swift */,
+				77D4D60A27EF62F400DFA2F9 /* EventsSectionView.swift */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -165,7 +171,9 @@
 				77D4D60327EF444B00DFA2F9 /* Tab.swift in Sources */,
 				77D4D5F727EF309400DFA2F9 /* MainTabView.swift in Sources */,
 				77D4D60927EF5C3300DFA2F9 /* CoffeeMenu.swift in Sources */,
+				77D4D60B27EF62F400DFA2F9 /* EventsSectionView.swift in Sources */,
 				77D4D5F527EF309400DFA2F9 /* CafeApp.swift in Sources */,
+				77D4D60D27EF635800DFA2F9 /* Event.swift in Sources */,
 				77D4D60727EF5B7500DFA2F9 /* MenuSuggestionSectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
