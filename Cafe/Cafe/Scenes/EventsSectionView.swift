@@ -10,11 +10,11 @@ import SwiftUI
 struct EventsSectionView: View {
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {
-            LazyHStack {
+            LazyHStack(spacing: 16.0) {
                 ForEach(Event.sample) { event in
                     EventSectionItemView(event: event)
                 }
-            }
+            }.padding(.horizontal, 16.0)
         }
     }
 }
@@ -36,7 +36,7 @@ struct EventSectionItemView: View {
                 .lineLimit(1)
                 .font(.callout)
                 .frame(width: .infinity, alignment: .topLeading)
-        }
+        }.frame(width: UIScreen.main.bounds.width - 32.0)
     }
 }
 struct EventsSectionView_Previews: PreviewProvider {
