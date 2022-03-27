@@ -24,7 +24,7 @@
    - swift
    ![image](https://user-images.githubusercontent.com/77050826/160241777-9aa15f9f-fb3a-4880-950d-a66b0af2ccc4.png)</br>
    - swiftUI
-   ![image](https://user-images.githubusercontent.com/77050826/160241798-e36bf4a9-55b7-4464-b00c-803940131991.png)</br>
+  ![image](https://user-images.githubusercontent.com/77050826/160269425-8a81da9f-d144-4f21-99e6-7246277643a0.png)</br>
    
    - 훨씬 더 간단하게 코드를 구현할 수 있다.
    - 긴딘하게 뷰만 추가해봐도 선언적 접근, 명령적 접근의 차이를 느낄 수 있다.
