@@ -7,7 +7,6 @@
 
 import Foundation
 import Combine
-import Alamofire
 
 
 class CenterNetwork {
@@ -18,7 +17,7 @@ class CenterNetwork {
         self.session = session
     }
 
-    func getCenterList() ->AnyPublisher<[Center], URLError> {
+    func getCenterList() -> AnyPublisher<[Center], URLError> {
         guard let url = api.getCenterListComponents().url else {
             return Fail(error: URLError(.badURL)).eraseToAnyPublisher()
         }
@@ -41,9 +40,8 @@ class CenterNetwork {
                 default:
                     throw URLError(.unknown)
                 }
-
             }
-            .decode(type: CenterAPIResponse.self, decoder: JSONDecoder)
+            .decode(type: CenterAPIResponse.self, decoder: JSONDecoder())
             .map { $0.data }
             .mapError { $0 as! URLError }
             .eraseToAnyPublisher()
