@@ -35,7 +35,8 @@ struct EventSectionItemView: View {
             Text(event.description)
                 .lineLimit(1)
                 .font(.callout)
-                .frame(width: .infinity, alignment: .topLeading)
+                .frame(maxWidth: .infinity, alignment: .topLeading)
+                
         }.frame(width: UIScreen.main.bounds.width - 32.0)
     }
 }

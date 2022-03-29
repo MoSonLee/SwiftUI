@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7725DAE627F32F510052D710 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7725DAE527F32F510052D710 /* HomeView.swift */; };
+		7725DAE827F32FA90052D710 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7725DAE727F32FA90052D710 /* MainTabView.swift */; };
+		7725DAEA27F330E30052D710 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7725DAE927F330E30052D710 /* HomeHeaderView.swift */; };
 		77D4D5F527EF309400DFA2F9 /* CafeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D4D5F427EF309400DFA2F9 /* CafeApp.swift */; };
-		77D4D5F727EF309400DFA2F9 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D4D5F627EF309400DFA2F9 /* MainTabView.swift */; };
 		77D4D5F927EF309400DFA2F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77D4D5F827EF309400DFA2F9 /* Assets.xcassets */; };
 		77D4D5FC27EF309400DFA2F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77D4D5FB27EF309400DFA2F9 /* Preview Assets.xcassets */; };
 		77D4D60327EF444B00DFA2F9 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D4D60227EF444B00DFA2F9 /* Tab.swift */; };
@@ -19,9 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7725DAE527F32F510052D710 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7725DAE727F32FA90052D710 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		7725DAE927F330E30052D710 /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
 		77D4D5F127EF309400DFA2F9 /* Cafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77D4D5F427EF309400DFA2F9 /* CafeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeApp.swift; sourceTree = "<group>"; };
-		77D4D5F627EF309400DFA2F9 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		77D4D5F827EF309400DFA2F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77D4D5FB27EF309400DFA2F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		77D4D60227EF444B00DFA2F9 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
@@ -42,6 +46,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7725DAEB27F332E30052D710 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7725DAE527F32F510052D710 /* HomeView.swift */,
+				7725DAE927F330E30052D710 /* HomeHeaderView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		77D4D5E827EF309400DFA2F9 = {
 			isa = PBXGroup;
 			children = (
@@ -82,8 +95,8 @@
 		77D4D60427EF5B4D00DFA2F9 /* Tab */ = {
 			isa = PBXGroup;
 			children = (
-				77D4D5F627EF309400DFA2F9 /* MainTabView.swift */,
 				77D4D60227EF444B00DFA2F9 /* Tab.swift */,
+				7725DAE727F32FA90052D710 /* MainTabView.swift */,
 			);
 			path = Tab;
 			sourceTree = "<group>";
@@ -94,6 +107,7 @@
 				77D4D60427EF5B4D00DFA2F9 /* Tab */,
 				77D4D60627EF5B7500DFA2F9 /* MenuSuggestionSectionView.swift */,
 				77D4D60A27EF62F400DFA2F9 /* EventsSectionView.swift */,
+				7725DAEB27F332E30052D710 /* Home */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -169,10 +183,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				77D4D60327EF444B00DFA2F9 /* Tab.swift in Sources */,
-				77D4D5F727EF309400DFA2F9 /* MainTabView.swift in Sources */,
 				77D4D60927EF5C3300DFA2F9 /* CoffeeMenu.swift in Sources */,
 				77D4D60B27EF62F400DFA2F9 /* EventsSectionView.swift in Sources */,
+				7725DAEA27F330E30052D710 /* HomeHeaderView.swift in Sources */,
+				7725DAE827F32FA90052D710 /* MainTabView.swift in Sources */,
 				77D4D5F527EF309400DFA2F9 /* CafeApp.swift in Sources */,
+				7725DAE627F32F510052D710 /* HomeView.swift in Sources */,
 				77D4D60D27EF635800DFA2F9 /* Event.swift in Sources */,
 				77D4D60727EF5B7500DFA2F9 /* MenuSuggestionSectionView.swift in Sources */,
 			);
