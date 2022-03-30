@@ -15,13 +15,12 @@ struct MainTabView: View {
                     Tab.home.imageItem
                     Tab.home.tabTextItem
                 }
-            Text("Other")
+            OtherView()
                 .tabItem {
                     Tab.other.imageItem
                     Tab.other.tabTextItem
                 }
         }
-        
     }
 }
 
