@@ -10,9 +10,12 @@ import SwiftUI
 struct HomeView: View {
     var body: some View {
         ScrollView(.vertical) {
+            Spacer(minLength: 30)
             HomeHeaderView()
-                .padding()
+            Spacer(minLength: 30)
             MenuSuggestionSectionView()
+            Spacer(minLength: 30)
+            EventsSectionView()
         }
     }
 }

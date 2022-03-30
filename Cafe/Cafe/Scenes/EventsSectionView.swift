@@ -14,20 +14,33 @@ struct EventsSectionView: View {
                 ForEach(Event.sample) { event in
                     EventSectionItemView(event: event)
                 }
-            }.padding(.horizontal, 16.0)
+            }
+            .padding()
         }
     }
 }
+
 
 struct EventSectionItemView: View {
     let event: Event
     
     var body: some View {
         VStack {
+            HStack {
+            Text("Events")
+                .font(.headline)
+                .frame(maxWidth: .infinity,
+                       alignment: .leading)
+            Button(action: {}){
+                Text("See all")
+            }
+            .frame(maxWidth: .infinity,
+                   alignment: .trailing)
+            }
             event.image
                 .resizable()
                 .scaledToFill()
-                .frame(height: 170.0)
+                .frame(height: 190.0)
                 .clipped()
             Text(event.title)
                 .frame(maxWidth: .infinity, alignment: .leading)
