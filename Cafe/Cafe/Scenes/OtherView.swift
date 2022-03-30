@@ -14,16 +14,16 @@ struct OtherView: View {
     var body: some View {
         NavigationView {
             List {
-                Section {
-                Text("1")
-                Text("2")
-                Text("3")
-                }
-                
-                Section {
-                Text("1")
-                Text("2")
-                Text("3")
+                ForEach(Menu.allCases) { section in
+                    Section(header: Text(section.title)
+                    ) {
+                        ForEach(section.menu, id:
+                                    \.hashValue) { raw in
+                            Text(raw)
+                            // navigation으로 다른 뷰로 이동시킬 때 사용하는 코드
+                            //NavigationLink(raw, destination: Text("\(raw)"))
+                        }
+                    }
                 }
             }
             .listStyle(GroupedListStyle())
