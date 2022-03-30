@@ -13,6 +13,7 @@
 		7725DAED27F478AA0052D710 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7725DAEC27F478AA0052D710 /* User.swift */; };
 		7725DAEF27F4B6FF0052D710 /* OtherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7725DAEE27F4B6FF0052D710 /* OtherView.swift */; };
 		7725DAF127F4B8E70052D710 /* SettingMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7725DAF027F4B8E70052D710 /* SettingMenu.swift */; };
+		7725DAF527F4C1260052D710 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7725DAF427F4C1260052D710 /* SettingView.swift */; };
 		77D4D5F527EF309400DFA2F9 /* CafeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D4D5F427EF309400DFA2F9 /* CafeApp.swift */; };
 		77D4D5F927EF309400DFA2F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77D4D5F827EF309400DFA2F9 /* Assets.xcassets */; };
 		77D4D5FC27EF309400DFA2F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77D4D5FB27EF309400DFA2F9 /* Preview Assets.xcassets */; };
@@ -30,6 +31,7 @@
 		7725DAEC27F478AA0052D710 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		7725DAEE27F4B6FF0052D710 /* OtherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherView.swift; sourceTree = "<group>"; };
 		7725DAF027F4B8E70052D710 /* SettingMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingMenu.swift; sourceTree = "<group>"; };
+		7725DAF427F4C1260052D710 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		77D4D5F127EF309400DFA2F9 /* Cafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77D4D5F427EF309400DFA2F9 /* CafeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeApp.swift; sourceTree = "<group>"; };
 		77D4D5F827EF309400DFA2F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,8 +59,30 @@
 			children = (
 				7725DAE527F32F510052D710 /* HomeView.swift */,
 				7725DAE927F330E30052D710 /* HomeHeaderView.swift */,
+				77D4D60A27EF62F400DFA2F9 /* EventsSectionView.swift */,
+				77D4D60627EF5B7500DFA2F9 /* MenuSuggestionSectionView.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		7725DAF227F4C0E80052D710 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				7725DAF027F4B8E70052D710 /* SettingMenu.swift */,
+				7725DAEE27F4B6FF0052D710 /* OtherView.swift */,
+				7725DAF427F4C1260052D710 /* SettingView.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		7725DAF327F4C1110052D710 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				77D4D60827EF5C3300DFA2F9 /* CoffeeMenu.swift */,
+				77D4D60C27EF635800DFA2F9 /* Event.swift */,
+				7725DAEC27F478AA0052D710 /* User.swift */,
+			);
+			path = Entities;
 			sourceTree = "<group>";
 		};
 		77D4D5E827EF309400DFA2F9 = {
@@ -81,10 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				77D4D5F427EF309400DFA2F9 /* CafeApp.swift */,
-				77D4D60827EF5C3300DFA2F9 /* CoffeeMenu.swift */,
-				77D4D60C27EF635800DFA2F9 /* Event.swift */,
-				7725DAF027F4B8E70052D710 /* SettingMenu.swift */,
-				7725DAEC27F478AA0052D710 /* User.swift */,
+				7725DAF327F4C1110052D710 /* Entities */,
 				77D4D60527EF5B5400DFA2F9 /* Scenes */,
 				77D4D5F827EF309400DFA2F9 /* Assets.xcassets */,
 				77D4D5FA27EF309400DFA2F9 /* Preview Content */,
@@ -113,10 +134,8 @@
 			isa = PBXGroup;
 			children = (
 				77D4D60427EF5B4D00DFA2F9 /* Tab */,
-				77D4D60627EF5B7500DFA2F9 /* MenuSuggestionSectionView.swift */,
-				77D4D60A27EF62F400DFA2F9 /* EventsSectionView.swift */,
 				7725DAEB27F332E30052D710 /* Home */,
-				7725DAEE27F4B6FF0052D710 /* OtherView.swift */,
+				7725DAF227F4C0E80052D710 /* Other */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -199,6 +218,7 @@
 				7725DAEF27F4B6FF0052D710 /* OtherView.swift in Sources */,
 				77D4D5F527EF309400DFA2F9 /* CafeApp.swift in Sources */,
 				7725DAE627F32F510052D710 /* HomeView.swift in Sources */,
+				7725DAF527F4C1260052D710 /* SettingView.swift in Sources */,
 				77D4D60D27EF635800DFA2F9 /* Event.swift in Sources */,
 				7725DAED27F478AA0052D710 /* User.swift in Sources */,
 				77D4D60727EF5B7500DFA2F9 /* MenuSuggestionSectionView.swift in Sources */,
