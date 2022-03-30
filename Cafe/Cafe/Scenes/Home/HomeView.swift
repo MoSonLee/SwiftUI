@@ -11,6 +11,8 @@ struct HomeView: View {
     var body: some View {
         ScrollView(.vertical) {
             HomeHeaderView()
+                .padding()
+            MenuSuggestionSectionView()
         }
     }
 }

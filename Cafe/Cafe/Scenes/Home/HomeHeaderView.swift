@@ -12,7 +12,7 @@ struct HomeHeaderView: View {
         VStack(spacing: 16.0) {
             HStack(alignment: .top) {
                 Text("""
-                     승후님~
+                     \(User.shaerd.username)님~
                      반갑습니다!☕️
                      """)
                 .font(.largeTitle)
@@ -29,6 +29,7 @@ struct HomeHeaderView: View {
                         .foregroundColor(.primary)
                         .font(.system(size: 16.0, weight: .semibold, design: .default))
                 }
+                Spacer()
                 Button(action: {}) {
                     Image(systemName: "ticket")
                         .foregroundColor(.secondary)
