@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+
 struct CoffeeMenu: Identifiable {
     let image: Image
     let name: String

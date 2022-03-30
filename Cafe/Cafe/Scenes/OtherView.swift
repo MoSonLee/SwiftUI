@@ -8,9 +8,33 @@
 import SwiftUI
 
 struct OtherView: View {
+    init() {
+        UITableView.appearance().backgroundColor = .systemBackground
+    }
     var body: some View {
         NavigationView {
-            Text("Other")
+            List {
+                Section {
+                Text("1")
+                Text("2")
+                Text("3")
+                }
+                
+                Section {
+                Text("1")
+                Text("2")
+                Text("3")
+                }
+            }
+            .listStyle(GroupedListStyle())
+                .navigationTitle("Other")
+                .toolbar {
+                    NavigationLink(
+                        destination: Text("Destination"),
+                        label: {
+                            Image(systemName: "gear")
+                        })
+                }
         }
     }
 }
