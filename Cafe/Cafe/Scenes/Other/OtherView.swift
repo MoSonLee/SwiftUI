@@ -30,7 +30,7 @@ struct OtherView: View {
                 .navigationTitle("Other")
                 .toolbar {
                     NavigationLink(
-                        destination: Text("Destination"),
+                        destination: SettingView(),
                         label: {
                             Image(systemName: "gear")
                         })
