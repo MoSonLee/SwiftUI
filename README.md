@@ -29,3 +29,11 @@
    - 훨씬 더 간단하게 코드를 구현할 수 있다.
    - 긴딘하게 뷰만 추가해봐도 선언적 접근, 명령적 접근의 차이를 느낄 수 있다.
 
+ ### CaseIterable
+  - CaseIterable을 사용하면 enum을 array로 손쉽게 바꿔줄 수 있다.</br>
+
+### swiftui에서 backgroundColor 바꿔주기
+<img width="432" alt="image" src="https://user-images.githubusercontent.com/77050826/160885239-fa688565-4f75-4101-b511-96f7195aeab8.png"></br> 
+   - 위의 코드처럼 init을 열어서 설정 해줘야 한다.
+    
+    
