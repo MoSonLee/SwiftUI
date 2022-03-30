@@ -31,3 +31,4 @@
 
  ### CaseIterable
     - CaseIterable을 사용하면 enum을 array로 손쉽게 바꿔줄 수 있다.
+    
