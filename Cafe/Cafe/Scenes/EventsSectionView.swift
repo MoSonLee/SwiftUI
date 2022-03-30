@@ -20,7 +20,6 @@ struct EventsSectionView: View {
     }
 }
 
-
 struct EventSectionItemView: View {
     let event: Event
     
