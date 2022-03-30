@@ -9,24 +9,46 @@ import SwiftUI
 
 struct HomeHeaderView: View {
     var body: some View {
-        VStack {
-            HStack {
-                Text("패캠님~")
-                    .frame(width: .infinity, height: 30, alignment: .topLeading)
-                    .lineLimit(2)
-                
+        VStack(spacing: 16.0) {
+            HStack(alignment: .top) {
+                Text("""
+                     승후님~
+                     반갑습니다!☕️
+                     """)
+                .font(.largeTitle)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                Button(action: {}, label: {
+                    Image(systemName: "arrow.2.circlepath")
+                })
             }
             HStack {
-                Button(
-            
+                Button(action: {}) {
+                    Image(systemName: "mail")
+                        .foregroundColor(.secondary)
+                    Text("What's New")
+                        .foregroundColor(.primary)
+                        .font(.system(size: 16.0, weight: .semibold, design: .default))
+                }
+                Button(action: {}) {
+                    Image(systemName: "ticket")
+                        .foregroundColor(.secondary)
+                    Text("Coupon")
+                        .foregroundColor(.primary)
+                        .font(.system(size: 16.0, weight: .semibold, design: .default))
+                }
+                Spacer()
+                Button(action: {}) {
+                    Image(systemName: "bell")
+                        .foregroundColor(.secondary)
+                }
             }
         }
-       
+        .padding(16.0)
     }
-}
-
-struct HomeHeaderView_Previews: PreviewProvider {
-    static var previews: some View {
-        HomeHeaderView()
+    
+    struct HomeHeaderView_Previews: PreviewProvider {
+        static var previews: some View {
+            HomeHeaderView()
+        }
     }
 }
