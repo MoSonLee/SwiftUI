@@ -20,6 +20,7 @@ struct SettingView: View {
         }
         .navigationTitle("설정")
         .listStyle(GroupedListStyle())
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
