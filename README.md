@@ -54,8 +54,14 @@
    - @Bindingdms childView에서 ParentView의 값을 표시하고 능동적으로 값이 변화할 때 childView에서 사용함</br>
    
    - combine에는 두가지 기초 개념
-      - Publisher: 관심 있는 누구에게나 value를 전달할 수 있는 타입
-      - Subscriber: value를 받을 수 있는 타입
+      - Publisher: 관심 있는 누구에게나 value를 전달할 수 있는 타입</br>
+      - Subscriber: value를 받을 수 있는 타입</br>
+      - <img width="619" alt="image" src="https://user-images.githubusercontent.com/77050826/161298641-88afa9ee-ec8f-4056-b50c-f04c0ab3ec8b.png"></br>
+      - subscriber 프로토콜에 포함된 세가지</br>
+         - receiveSubscription: Publisher와 subscriber가 연결된 순간이다. subscriber객체를 사용하여 publisher에게 원하는 값을 알릴 수 있다. </br>
+         - reciveValue: value 값을 받아 액션을 취해줄 수 있다. Publisher에게 더 많은 value를 원하는지 알릴 수 있다.</br>
+         - receiveCompletion: publisher가 완료되는 단계로 완료되는 순간 완료되었다고 전달한다. (전달 완료 or 실패로 나타낸다)</br>
+
    
 
     
