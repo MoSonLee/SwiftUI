@@ -61,6 +61,8 @@
          - receiveSubscription: Publisher와 subscriber가 연결된 순간이다. subscriber객체를 사용하여 publisher에게 원하는 값을 요구할 수 있는 단계이다. </br>
          - reciveValue: value 값을 받아 액션을 취해줄 수 있다. Publisher에게 더 많은 value를 원하는지 알릴 수 있다.</br>
          - receiveCompletion: publisher가 완료되는 단계로 완료되는 순간 완료되었다고 전달한다. (전달 완료 or 실패로 나타낸다)</br>
+         - code 구현시 <img width="481" alt="image" src="https://user-images.githubusercontent.com/77050826/161299884-56b19497-5659-4df3-8bb9-3e2eccb4f257.png"></br>
+
 
    
 
