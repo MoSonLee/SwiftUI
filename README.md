@@ -51,8 +51,11 @@
 ![image](https://user-images.githubusercontent.com/77050826/161272833-caed7e80-6c2a-4993-97da-503000535e4a.png)</br>
    - @State는 String, Int, Bool과 같은 값은 간단한 값을 저장 -> View에 현재 상태를 표시할 때 사용</br>
 ![image](https://user-images.githubusercontent.com/77050826/161273049-bedf10e8-aa49-458d-b4e6-b60c23bc9f5b.png)</br>
-   - @Bindingdms childView에서 ParentView의 값을 표시하고 능동적으로 값이 변화할 때 childView에서 사용함
-
+   - @Bindingdms childView에서 ParentView의 값을 표시하고 능동적으로 값이 변화할 때 childView에서 사용함</br>
+   
+   - combine에는 두가지 기초 개념
+      - Publisher: 관심 있는 누구에게나 value를 전달할 수 있는 타입
+      - Subscriber: value를 받을 수 있는 타입
    
 
     
