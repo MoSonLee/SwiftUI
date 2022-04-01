@@ -11,7 +11,15 @@
 **📲 실행 화면 </br>**
 ![Simulator Screen Recording - iPhone 11 - 2022-03-25 at 21 53 03](https://user-images.githubusercontent.com/77050826/160124249-b5a6285d-bdb0-4c5d-afd6-d68e7e5f86de.gif)</br>
 
-
+### Cafe app 구현
+   ➡️ swiftUi를 사용하여 뷰를 구현</br>
+   ➡️ combine으로 데이터를 처리해 새로고침 버튼을 눌렀을 때 화면이 인덱스 값이 랜덤하게 바뀌게 구현</br>
+   ➡️ Vstack, HStack, list, LaztHStack 등 사용
+   ➡️ Observable, Observed, Binding, state 등 combine의 문법을 사용하여 데이터를 처리해줌
+   
+**📲 실행 화면 </br>**
+   
+![Simulator Screen Recording - iPhone 11 - 2022-04-01 at 02 41 26](https://user-images.githubusercontent.com/77050826/161272059-ac7858d8-e1a9-4958-81f3-1742dc928b1f.gif)</br>
 
 
 ### SwiftUI
@@ -34,6 +42,16 @@
 
 ### swiftui에서 backgroundColor 바꿔주기
 <img width="432" alt="image" src="https://user-images.githubusercontent.com/77050826/160885239-fa688565-4f75-4101-b511-96f7195aeab8.png"></br> 
-   - 위의 코드처럼 init을 열어서 설정 해줘야 한다.
+   - 위의 코드처럼 init을 열어서 설정 해줘야 한다.</br>
+
+### Combine
+
+![image](https://user-images.githubusercontent.com/77050826/161272833-caed7e80-6c2a-4993-97da-503000535e4a.png)</br>
+   - @State는 String, Int, Bool과 같은 값은 간단한 값을 저장 -> View에 현재 상태를 표시할 때 사용</br>
+![image](https://user-images.githubusercontent.com/77050826/161273049-bedf10e8-aa49-458d-b4e6-b60c23bc9f5b.png)</br>
+   - @Bindingdms childView에서 ParentView의 값을 표시하고 능동적으로 값이 변화할 때 childView에서 사용함
+
+   
+
     
     
