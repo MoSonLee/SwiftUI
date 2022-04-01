@@ -16,6 +16,8 @@
    ➡️ combine으로 데이터를 처리해 새로고침 버튼을 눌렀을 때 화면이 인덱스 값이 랜덤하게 바뀌게 구현</br>
    ➡️ Vstack, HStack, list, LaztHStack 등 사용
    ➡️ Observable, Observed, Binding, state 등 combine의 문법을 사용하여 데이터를 처리해줌
+   ➡️ navigationView를 사용하여 title을 지정
+   ➡️ 설정 탭을 눌렀을 때 설정으로, 거기서 또 navigation button을 누르면 내 정보를 띄워줌
    
 **📲 실행 화면 </br>**
    
