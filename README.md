@@ -57,11 +57,17 @@
       - Publisher: 관심 있는 누구에게나 value를 전달할 수 있는 타입</br>
       - Subscriber: value를 받을 수 있는 타입</br>
       - <img width="619" alt="image" src="https://user-images.githubusercontent.com/77050826/161298641-88afa9ee-ec8f-4056-b50c-f04c0ab3ec8b.png"></br>
-      - subscriber 프로토콜에 포함된 세가지</br>
-         - receiveSubscription: Publisher와 subscriber가 연결된 순간이다. subscriber객체를 사용하여 publisher에게 원하는 값을 요구할 수 있는 단계이다. </br>
-         - reciveValue: value 값을 받아 액션을 취해줄 수 있다. Publisher에게 더 많은 value를 원하는지 알릴 수 있다.</br>
-         - receiveCompletion: publisher가 완료되는 단계로 완료되는 순간 완료되었다고 전달한다. (전달 완료 or 실패로 나타낸다)</br>
-         - code 구현시 <img width="481" alt="image" src="https://user-images.githubusercontent.com/77050826/161299884-56b19497-5659-4df3-8bb9-3e2eccb4f257.png"></br>
+   - subscriber 프로토콜에 포함된 세가지</br>
+      - receiveSubscription: Publisher와 subscriber가 연결된 순간이다. subscriber객체를 사용하여 publisher에게 원하는 값을 요구할 수 있는 단계이다. </br>
+      - reciveValue: value 값을 받아 액션을 취해줄 수 있다. Publisher에게 더 많은 value를 원하는지 알릴 수 있다.</br>
+      - receiveCompletion: publisher가 완료되는 단계로 완료되는 순간 완료되었다고 전달한다. (전달 완료 or 실패로 나타낸다)</br>
+      - code 구현 예제</br>
+         - <img width="481" alt="image" src="https://user-images.githubusercontent.com/77050826/161299884-56b19497-5659-4df3-8bb9-3e2eccb4f257.png"></br>
+      - **그러나 이러한 모든 과정을 거치지 않고 sink를 사용하여 간단히 subscriber를 구현할 수 있다.**</br>
+         - <img width="482" alt="image" src="https://user-images.githubusercontent.com/77050826/161300659-3fcf770c-c869-434e-a0fa-93cbffea0714.png"></br>
+            - canceelable.cancle()를 사용하여 subscriber에 저장되지 않도록 할 수도 있다.</br>
+            - cancellable을 해주는 것을 잊지 말자!</br>
+
 
 
    
