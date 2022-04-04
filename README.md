@@ -25,7 +25,6 @@
 
 ### Corona19 app 구현
    - swiftUi를 사용하여 뷰를 구현</br>
-   - combine으로 JSon 데이터를 처리해줌.</br>
    - Grid, list,VStack, HStack 모두 사용</br>
    - Json 파일을 combine을 사용하여 디코딩, 인코딩 시킴</br>
 
