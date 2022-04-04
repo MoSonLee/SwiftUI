@@ -29,7 +29,8 @@
    - Json 파일을 combine을 사용하여 디코딩, 인코딩 시킴</br>
 
 **📲 실행 화면 </br>**
-![Uploading Simulator Screen Recording - iPhone 11 - 2022-04-04 at 22.33.50.gif…]()</br>
+![Simulator Screen Recording - iPhone 11 - 2022-04-04 at 22 33 50](https://user-images.githubusercontent.com/77050826/161558337-c40488b4-7db7-43be-8344-3aa35f2931da.gif)</br>
+
 
 
 
