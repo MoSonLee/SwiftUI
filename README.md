@@ -23,6 +23,16 @@
    
 ![Simulator Screen Recording - iPhone 11 - 2022-04-01 at 02 41 26](https://user-images.githubusercontent.com/77050826/161272059-ac7858d8-e1a9-4958-81f3-1742dc928b1f.gif)</br>
 
+### Corona19 app 구현
+   - swiftUi를 사용하여 뷰를 구현</br>
+   - combine으로 JSon 데이터를 처리해줌.</br>
+   - Grid, list,VStack, HStack 모두 사용</br>
+   - Json 파일을 combine을 사용하여 디코딩, 인코딩 시킴</br>
+
+**📲 실행 화면 </br>**
+![Uploading Simulator Screen Recording - iPhone 11 - 2022-04-04 at 22.33.50.gif…]()</br>
+
+
 
 ### SwiftUI
    - swiftUI는 사용자 interface에 대한 선언적 접근 방식을 사용한다.
