@@ -104,7 +104,12 @@
       <img width="453" alt="image" src="https://user-images.githubusercontent.com/77050826/161459578-766c98c9-7029-4864-ace2-612ef4531fbf.png"></br>
       - tryScan: map, trymap 사이의 관계와 scan과 똑같다.</br>
          - scna 도중 문제가 생기면 error을 반환한다.</br>
-
+      - filter: 말 그대로 필터로 걸로 조건에 맞는 요소들을 다시 publish해주는 것이다.</br>
+         - .filter{ $0 % 2 == 1 }을 추가시 홀수들만 publish되는 것이다.</br>
+      - tryFilter: 위와 같은 맥락이다. 그래도 다시 얘기하자면 try가 붙으면 error값을 보여주는 closure를 넣어줄 수 있다는 것이다.</br>
+      - compactMap: pusblisher 스트림에 있는 nil을 제거한후 나머지만 다운스트림 해준다.</br>
+         - 배열 [1,2,3,4,nill]이 있다고 가정하면 1,2,3,4만 남겨주는 것이다.
+   
       
 
     
