@@ -46,6 +46,13 @@
 <img width="432" alt="image" src="https://user-images.githubusercontent.com/77050826/160885239-fa688565-4f75-4101-b511-96f7195aeab8.png"></br> 
    - 위의 코드처럼 init을 열어서 설정 해줘야 한다.</br>
 
+### constant
+   - 변경할 수 없는 값을 binding으로 만들어준다.</br>
+   <img width="511" alt="image" src="https://user-images.githubusercontent.com/77050826/161456610-f13092d6-0f16-4ae5-9888-e42b1ef5a254.png"></br>
+   <img width="755" alt="image" src="https://user-images.githubusercontent.com/77050826/161456632-4031b87f-df13-4047-bf16-5809ddcb9fb4.png"></br>
+
+
+
 ### Combine
 
 ![image](https://user-images.githubusercontent.com/77050826/161272833-caed7e80-6c2a-4993-97da-503000535e4a.png)</br>
