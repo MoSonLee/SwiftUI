@@ -79,7 +79,8 @@
          - CurrentValue와의 차이점으론 가장 최근에 publish된 초기값 or 버퍼가 없음
          - subscribers가 없으면 value를 삭제한다.
 
-   
+   - combine에 있는 scheduler, cancellable
+      - cancellable: combine의 기본 프로토콜로 뜻 그대로 모든 것을 cancell 시킨다고 볼 수 있다.(할당된 모든 리소스가 해제된다.)
 
     
     
