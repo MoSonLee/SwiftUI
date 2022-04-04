@@ -87,7 +87,25 @@
          - subscribers가 없으면 value를 삭제한다.
 
    - combine에 있는 scheduler, cancellable
-      - cancellable: combine의 기본 프로토콜로 뜻 그대로 모든 것을 cancell 시킨다고 볼 수 있다.(할당된 모든 리소스가 해제된다.)
+      - cancellable: combine의 기본 프로토콜로 뜻 그대로 모든 것을 cancell 시킨다고 볼 수 있다.(할당된 모든 리소스가 해제된다.</br>
+   - ***Combine Operator***
+      - map: upstream publisher의 모든 요소들을 반환해줌</br>
+      - tryMap: map과 같은 원리이지만 error를 보여줄 수 있다.</br>
+      <img width="385" alt="image" src="https://user-images.githubusercontent.com/77050826/161458274-9ffa545a-ea43-4ad5-8868-2303d2693654.png"></br>
+      - flatMap: map, tryMap 괴는 다르게 publisher를 반환해주는 operator
+         - 기본값은 unlimited이다.</br>
+         - maxPublisher를 max(1)로 설정한다는 것 -> publish한번 당 최대 1개의 publisher만 만들어 내겠다는 뜻.</br>
+         - 모든 publisher가 성공적으로 완료 돼도 전체 스트림이 완료되지 않음.</br>
+         - But 새로운 publisher를 생성 실패시 전체 스트림이 실패함.</br>
+         - maxPublisher의 갯수만큼 실행돼고 계속 스트림이 살아있음.</br>
+         - But 메모리적 문제가 발생할 수 있음.</br>
+      - mapError: upStream Publisher의 오류들을 전부 새로운 오류로 변환해줌.</br>
+      - scan: 예제코드</br>
+      <img width="453" alt="image" src="https://user-images.githubusercontent.com/77050826/161459578-766c98c9-7029-4864-ace2-612ef4531fbf.png"></br>
+      - tryScan: map, trymap 사이의 관계와 scan과 똑같다.</br>
+         - scna 도중 문제가 생기면 error을 반환한다.</br>
+
+      
 
     
     
