@@ -10,7 +10,7 @@ import SwiftUI
 struct CenterRow: View {
     var center: Center
     var body: some View {
-        VStack {
+        VStack(alignment: .leading) {
             HStack {
                 Text(center.facilityName)
                     .font(.headline)

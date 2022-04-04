@@ -20,7 +20,7 @@ struct SelectRegionView: View {
                     ForEach(Center.Sido.allCases, id: \.id) {
                         sido in
                         let centers = viewModel.centers[sido] ?? []
-                        NavigationLink(destination: CenterList(Centers: centers)) {
+                        NavigationLink(destination: CenterList(centers: centers)) {
                             SelectRegionItem(region: sido, count: centers.count)
                         }
                     }
