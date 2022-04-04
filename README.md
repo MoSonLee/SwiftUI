@@ -46,6 +46,13 @@
 <img width="432" alt="image" src="https://user-images.githubusercontent.com/77050826/160885239-fa688565-4f75-4101-b511-96f7195aeab8.png"></br> 
    - 위의 코드처럼 init을 열어서 설정 해줘야 한다.</br>
 
+### constant
+   - 변경할 수 없는 값을 binding으로 만들어준다.</br>
+   <img width="511" alt="image" src="https://user-images.githubusercontent.com/77050826/161456610-f13092d6-0f16-4ae5-9888-e42b1ef5a254.png"></br>
+   <img width="755" alt="image" src="https://user-images.githubusercontent.com/77050826/161456632-4031b87f-df13-4047-bf16-5809ddcb9fb4.png"></br>
+
+
+
 ### Combine
 
 ![image](https://user-images.githubusercontent.com/77050826/161272833-caed7e80-6c2a-4993-97da-503000535e4a.png)</br>
@@ -79,7 +86,31 @@
          - CurrentValue와의 차이점으론 가장 최근에 publish된 초기값 or 버퍼가 없음
          - subscribers가 없으면 value를 삭제한다.
 
+   - combine에 있는 scheduler, cancellable
+      - cancellable: combine의 기본 프로토콜로 뜻 그대로 모든 것을 cancell 시킨다고 볼 수 있다.(할당된 모든 리소스가 해제된다.</br>
+   - ***Combine Operator***
+      - map: upstream publisher의 모든 요소들을 반환해줌</br>
+      - tryMap: map과 같은 원리이지만 error를 보여줄 수 있다.</br>
+      <img width="385" alt="image" src="https://user-images.githubusercontent.com/77050826/161458274-9ffa545a-ea43-4ad5-8868-2303d2693654.png"></br>
+      - flatMap: map, tryMap 괴는 다르게 publisher를 반환해주는 operator
+         - 기본값은 unlimited이다.</br>
+         - maxPublisher를 max(1)로 설정한다는 것 -> publish한번 당 최대 1개의 publisher만 만들어 내겠다는 뜻.</br>
+         - 모든 publisher가 성공적으로 완료 돼도 전체 스트림이 완료되지 않음.</br>
+         - But 새로운 publisher를 생성 실패시 전체 스트림이 실패함.</br>
+         - maxPublisher의 갯수만큼 실행돼고 계속 스트림이 살아있음.</br>
+         - But 메모리적 문제가 발생할 수 있음.</br>
+      - mapError: upStream Publisher의 오류들을 전부 새로운 오류로 변환해줌.</br>
+      - scan: 예제코드</br>
+      <img width="453" alt="image" src="https://user-images.githubusercontent.com/77050826/161459578-766c98c9-7029-4864-ace2-612ef4531fbf.png"></br>
+      - tryScan: map, trymap 사이의 관계와 scan과 똑같다.</br>
+         - scna 도중 문제가 생기면 error을 반환한다.</br>
+      - filter: 말 그대로 필터로 걸로 조건에 맞는 요소들을 다시 publish해주는 것이다.</br>
+         - .filter{ $0 % 2 == 1 }을 추가시 홀수들만 publish되는 것이다.</br>
+      - tryFilter: 위와 같은 맥락이다. 그래도 다시 얘기하자면 try가 붙으면 error값을 보여주는 closure를 넣어줄 수 있다는 것이다.</br>
+      - compactMap: pusblisher 스트림에 있는 nil을 제거한후 나머지만 다운스트림 해준다.</br>
+         - 배열 [1,2,3,4,nill]이 있다고 가정하면 1,2,3,4만 남겨주는 것이다.
    
+      
 
     
     
