@@ -9,6 +9,7 @@ import SwiftUI
 
 struct MainListView: View {
     @EnvironmentObject var store: MemoStore
+    @State private var showComposer: Bool = false
     
     var body: some View {
         NavigationView {
@@ -17,6 +18,16 @@ struct MainListView: View {
             }
             .listStyle(.plain)
             .navigationTitle("my memo")
+            .toolbar {
+                Button {
+                    showComposer = true
+                } label: {
+                    Image(systemName: "plus")
+                }
+            }
+            .sheet(isPresented: $showComposer) {
+                ComposeView()
+            }
         }
         
     }

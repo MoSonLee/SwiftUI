@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ComposeView: View {
+    
     @EnvironmentObject var store: MemoStore
     @State private var content: String = ""
     @Environment(\.dismiss) var dismiss
