@@ -9,14 +9,33 @@ import SwiftUI
 
 struct DetailView: View {
     @ObservedObject var memo: Memo
+    @EnvironmentObject var store: MemoStore
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            ScrollView {
+                VStack {
+                    HStack {
+                        Text(memo.content)
+                            .padding()
+                        Spacer(minLength: 0)
+                    }
+                    Text(memo.insertDate, style: .date)
+                        .padding()
+                        .font(.footnote)
+                        .foregroundColor(.secondary)
+                }
+            }
+        }
+        .navigationTitle("메모 보기")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
 struct DetailView_Previews: PreviewProvider {
     static var previews: some View {
-        DetailView()
+        DetailView(memo: Memo(content: "Hello"))
+            .environmentObject(MemoStore())
+        
     }
 }
