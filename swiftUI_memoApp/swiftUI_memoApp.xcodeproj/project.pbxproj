@@ -16,6 +16,7 @@
 		777DC54027FC728F00D03FE5 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777DC53F27FC728F00D03FE5 /* Memo.swift */; };
 		777DC54227FC73BC00D03FE5 /* MemoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777DC54127FC73BC00D03FE5 /* MemoStore.swift */; };
 		777DC54527FC966700D03FE5 /* MemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777DC54427FC966700D03FE5 /* MemoCell.swift */; };
+		777DC54727FC972600D03FE5 /* ComposeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777DC54627FC972600D03FE5 /* ComposeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		777DC53F27FC728F00D03FE5 /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
 		777DC54127FC73BC00D03FE5 /* MemoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoStore.swift; sourceTree = "<group>"; };
 		777DC54427FC966700D03FE5 /* MemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCell.swift; sourceTree = "<group>"; };
+		777DC54627FC972600D03FE5 /* ComposeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +68,6 @@
 				777DC53C27FC6D8400D03FE5 /* CoreData */,
 				777DC52727FC6D0600D03FE5 /* swiftUI_memoAppApp.swift */,
 				777DC52B27FC6D0700D03FE5 /* Assets.xcassets */,
-				777DC53A27FC6D3F00D03FE5 /* MainListView.swift */,
 				777DC52D27FC6D0700D03FE5 /* Preview Content */,
 			);
 			path = swiftUI_memoApp;
@@ -102,6 +103,8 @@
 			isa = PBXGroup;
 			children = (
 				777DC54427FC966700D03FE5 /* MemoCell.swift */,
+				777DC53A27FC6D3F00D03FE5 /* MainListView.swift */,
+				777DC54627FC972600D03FE5 /* ComposeView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				777DC54227FC73BC00D03FE5 /* MemoStore.swift in Sources */,
 				777DC53B27FC6D3F00D03FE5 /* MainListView.swift in Sources */,
 				777DC53427FC6D0700D03FE5 /* swiftUI_memoApp.xcdatamodeld in Sources */,
+				777DC54727FC972600D03FE5 /* ComposeView.swift in Sources */,
 				777DC52827FC6D0600D03FE5 /* swiftUI_memoAppApp.swift in Sources */,
 				777DC54027FC728F00D03FE5 /* Memo.swift in Sources */,
 			);
