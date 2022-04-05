@@ -61,6 +61,9 @@
    <img width="511" alt="image" src="https://user-images.githubusercontent.com/77050826/161456610-f13092d6-0f16-4ae5-9888-e42b1ef5a254.png"></br>
    <img width="755" alt="image" src="https://user-images.githubusercontent.com/77050826/161456632-4031b87f-df13-4047-bf16-5809ddcb9fb4.png"></br>
 
+### swiftUi에서 View가 생길 때 혹은 사라질때 코드 구현
+   - onAppear: 뷰가 생길때 코드를 구현할 때
+   - onDisappear: 뷰가 사라질때 코드를 구현할 때
 
 
 ### Combine
