@@ -13,6 +13,8 @@
 		777DC53127FC6D0700D03FE5 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777DC53027FC6D0700D03FE5 /* Persistence.swift */; };
 		777DC53427FC6D0700D03FE5 /* swiftUI_memoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 777DC53227FC6D0700D03FE5 /* swiftUI_memoApp.xcdatamodeld */; };
 		777DC53B27FC6D3F00D03FE5 /* MainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777DC53A27FC6D3F00D03FE5 /* MainListView.swift */; };
+		777DC54027FC728F00D03FE5 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777DC53F27FC728F00D03FE5 /* Memo.swift */; };
+		777DC54227FC73BC00D03FE5 /* MemoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777DC54127FC73BC00D03FE5 /* MemoStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		777DC53027FC6D0700D03FE5 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		777DC53327FC6D0700D03FE5 /* swiftUI_memoApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = swiftUI_memoApp.xcdatamodel; sourceTree = "<group>"; };
 		777DC53A27FC6D3F00D03FE5 /* MainListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListView.swift; sourceTree = "<group>"; };
+		777DC53F27FC728F00D03FE5 /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
+		777DC54127FC73BC00D03FE5 /* MemoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 		777DC53E27FC6DE900D03FE5 /* Memory */ = {
 			isa = PBXGroup;
 			children = (
+				777DC53F27FC728F00D03FE5 /* Memo.swift */,
+				777DC54127FC73BC00D03FE5 /* MemoStore.swift */,
 			);
 			path = Memory;
 			sourceTree = "<group>";
@@ -160,9 +166,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				777DC53127FC6D0700D03FE5 /* Persistence.swift in Sources */,
+				777DC54227FC73BC00D03FE5 /* MemoStore.swift in Sources */,
 				777DC53B27FC6D3F00D03FE5 /* MainListView.swift in Sources */,
 				777DC53427FC6D0700D03FE5 /* swiftUI_memoApp.xcdatamodeld in Sources */,
 				777DC52827FC6D0600D03FE5 /* swiftUI_memoAppApp.swift in Sources */,
+				777DC54027FC728F00D03FE5 /* Memo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
