@@ -40,7 +40,7 @@
    - 아직 enviromentobject는 어렵다 -> 더 공부해야함!</br>
 
 **📲 실행 화면 </br>**
-<img width="709" alt="스크린샷 2022-04-05 오후 9 47 23" src="https://user-images.githubusercontent.com/77050826/161955351-8e029438-2159-44b0-8bd9-62e9296b76a1.png"></br>
+![Simulator Screen Recording - iPhone 11 - 2022-04-06 at 19 28 59](https://user-images.githubusercontent.com/77050826/161955812-96bca266-2f89-4ef7-a963-c00ee0f5bcf1.gif)</br>
 
 ### SwiftUI
    - swiftUI는 사용자 interface에 대한 선언적 접근 방식을 사용한다.
