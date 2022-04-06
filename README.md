@@ -37,6 +37,7 @@
    - state, enviromentobject 등등</br>
    - navigationView를 사용하여 화면 전환</br>
    - onAppear, onDisapper를 사용하여 화면이 생길 때, 혹은 사라질 때 코드 구현</br>
+   - 삭제, 추가, 편집 기능을 모두 구현(프로젝트에서 많이 쓰일듯)</br>
    - 아직 enviromentobject는 어렵다 -> 더 공부해야함!</br>
 
 **📲 실행 화면 </br>**
