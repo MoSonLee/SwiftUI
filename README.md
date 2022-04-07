@@ -31,8 +31,17 @@
 **📲 실행 화면 </br>**
 ![Simulator Screen Recording - iPhone 11 - 2022-04-04 at 22 33 50](https://user-images.githubusercontent.com/77050826/161558337-c40488b4-7db7-43be-8344-3aa35f2931da.gif)</br>
 
+### SwiftUI_memoApp 구현
+   - swiftUI를 사용하여 view를 구현</br>
+   - swiftui의 다양한 modifier를 이용해봄</br>
+   - state, enviromentobject 등등</br>
+   - navigationView를 사용하여 화면 전환</br>
+   - onAppear, onDisapper를 사용하여 화면이 생길 때, 혹은 사라질 때 코드 구현</br>
+   - 삭제, 추가, 편집 기능을 모두 구현(프로젝트에서 많이 쓰일듯)</br>
+   - 아직 enviromentobject는 어렵다 -> 더 공부해야함!</br>
 
-
+**📲 실행 화면 </br>**
+![Simulator Screen Recording - iPhone 11 - 2022-04-06 at 19 28 59](https://user-images.githubusercontent.com/77050826/161955812-96bca266-2f89-4ef7-a963-c00ee0f5bcf1.gif)</br>
 
 ### SwiftUI
    - swiftUI는 사용자 interface에 대한 선언적 접근 방식을 사용한다.
