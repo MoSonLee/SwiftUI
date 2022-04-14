@@ -144,5 +144,8 @@
    - 화면 변환 버튼 구현 완료</br>
    - 초기 화면 구현</br>
    ![Simulator Screen Recording - iPhone 12 - 2022-04-14 at 00 47 03](https://user-images.githubusercontent.com/77050826/163227703-cba64956-d2c1-4992-a8c1-3791c9099d67.gif)</br>
+   - GeometryReader을 사용해 뷰의 크기를 알아와 button의 layout을 잡아줌</br>
+      - ![image](https://user-images.githubusercontent.com/77050826/163431333-030afc16-0d67-46af-abc4-4fd1a100fc3f.png)
+
 
     
