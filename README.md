@@ -141,6 +141,8 @@
       - Store: 실제로 기능이 작동하는 공간. 사용자의 Action을 보내 Store는 Reducer와 Effect를 실행할 수 있다. 또한 store에서 일어나는 state 변화를 observe해서 ui를 업데이트할 수 있다. </br>
  
  ### MONGSIL PROJECT 
+   - Mongsil Project 다이어그램</br>
+      - ![image](https://user-images.githubusercontent.com/77050826/163538697-42d666d6-5054-4c4e-aa08-abed329e1b90.png)</br>
    - 화면 변환 버튼 구현 완료</br>
    - 초기 화면 구현</br>
    ![Simulator Screen Recording - iPhone 12 - 2022-04-14 at 00 47 03](https://user-images.githubusercontent.com/77050826/163227703-cba64956-d2c1-4992-a8c1-3791c9099d67.gif)</br>
@@ -148,6 +150,8 @@
       - ![image](https://user-images.githubusercontent.com/77050826/163431333-030afc16-0d67-46af-abc4-4fd1a100fc3f.png)</br>
    - tabbar top line 그려주는 코드</br>
       - <img width="509" alt="image" src="https://user-images.githubusercontent.com/77050826/163523776-b17bc9b8-4ac7-41e6-bd1e-a049a6b86dac.png"></br>
-
+   - ![Simulator Screen Recording - iPhone 11 - 2022-04-15 at 16 01 12](https://user-images.githubusercontent.com/77050826/163538626-31cfcbb1-86e3-4ea4-893b-e457a4d92182.gif)</br>
+   - back button을 눌렀을 때 appview로 다시 돌아가게 구현함
+   - 아직 button의 layout이 맞춰지지는 않았음(수정 예정)
 
     
