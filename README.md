@@ -153,5 +153,5 @@
    - ![Simulator Screen Recording - iPhone 11 - 2022-04-15 at 16 01 12](https://user-images.githubusercontent.com/77050826/163538626-31cfcbb1-86e3-4ea4-893b-e457a4d92182.gif)</br>
    - back button을 눌렀을 때 appview로 다시 돌아가게 구현함
    - 아직 button의 layout이 맞춰지지는 않았음(수정 예정)
-
+   - code 리뷰 받은 후 code 리팩토리중입니다.
     
