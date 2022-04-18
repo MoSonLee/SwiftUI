@@ -151,7 +151,12 @@
    - tabbar top line 그려주는 코드</br>
       - <img width="509" alt="image" src="https://user-images.githubusercontent.com/77050826/163523776-b17bc9b8-4ac7-41e6-bd1e-a049a6b86dac.png"></br>
    - ![Simulator Screen Recording - iPhone 11 - 2022-04-15 at 16 01 12](https://user-images.githubusercontent.com/77050826/163538626-31cfcbb1-86e3-4ea4-893b-e457a4d92182.gif)</br>
-   - back button을 눌렀을 때 appview로 다시 돌아가게 구현함
-   - 아직 button의 layout이 맞춰지지는 않았음(수정 예정)
-   - code 리뷰 받은 후 code 리팩토리중입니다.
-    
+   - back button을 눌렀을 때 appview로 다시 돌아가게 구현함</br>
+   - 아직 button의 layout이 맞춰지지는 않았음(수정 예정)</br>
+   - code 리뷰 받은 후 code 리팩토리중입니다.</br>
+   - ![Simulator Screen Recording - iPhone 12 - 2022-04-18 at 20 56 36](https://user-images.githubusercontent.com/77050826/163804963-069d311d-e4a0-4127-8729-6aed64757cbd.gif)</br>
+      - navigationbar가 hidden되지 않아 버튼이 위로 올라가는 현상을 해결했습니다.</br>
+         - swiftui 오류인지는 모르겠으나 hiiden해도 사라지지 않는 오류가 있었습니다.</br>
+         - 해결법: https://github.com/MoSonLee/swiftUI_Combine_TCA/issues/3#issue-1206397848</br>
+
+
