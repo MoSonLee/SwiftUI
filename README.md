@@ -158,5 +158,12 @@
       - navigationbar가 hidden되지 않아 버튼이 위로 올라가는 현상을 해결했습니다.</br>
          - swiftui 오류인지는 모르겠으나 hiiden해도 사라지지 않는 오류가 있었습니다.</br>
          - 해결법: https://github.com/MoSonLee/swiftUI_Combine_TCA/issues/3#issue-1206397848</br>
-
+![Simulator Screen Recording - iPhone 12 - 2022-04-19 at 21 58 56](https://user-images.githubusercontent.com/77050826/164009505-60843432-fc40-464b-9220-02dcbc08dd75.gif)</br>
+   - 1차 task 완료
+      - mainTab
+      - recordView로 이동시킴 https://github.com/MoSonLee/swiftUI_Combine_TCA/issues/2#issue-1200157311</br>
+      - back button이 눌렸을 때 이전 화면으로 이동 https://github.com/MoSonLee/swiftUI_Combine_TCA/issues/4#issuecomment-1101384384</br>
+      - 미리 모듈로 만들어낸 navigationbar을 사용해줌.</br>
+     
+   
 
