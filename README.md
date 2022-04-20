@@ -164,4 +164,6 @@
       - recordView로 이동시킴 https://github.com/MoSonLee/swiftUI_Combine_TCA/issues/2#issue-1200157311</br>
       - back button이 눌렸을 때 이전 화면으로 이동 https://github.com/MoSonLee/swiftUI_Combine_TCA/issues/4#issuecomment-1101384384</br>
       - 미리 모듈로 만들어준 navigationbar을 사용해줌.</br>
-     
+  
+  - 2차 task
+      - 보관함 설정 아이콘에 SettingView와 Core연결하기
