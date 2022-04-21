@@ -165,5 +165,9 @@
       - back button이 눌렸을 때 이전 화면으로 이동 https://github.com/MoSonLee/swiftUI_Combine_TCA/issues/4#issuecomment-1101384384</br>
       - 미리 모듈로 만들어준 navigationbar을 사용해줌.</br>
   
-  - 2차 task
-      - 보관함 설정 아이콘에 SettingView와 Core연결하기
+  - 2차 task</br>
+      - 보관함 설정 아이콘에 SettingView와 Core연결하기</br>
+  - 3차 task</br>
+     - storageView를 눌렀을 때 login하라는 alert 띄워주기</br>
+        - <img width="267" alt="image" src="https://user-images.githubusercontent.com/77050826/164504009-9c070c7a-9cf5-4e33-b493-94b8352d0365.png"></br>
+
