@@ -170,4 +170,5 @@
   - 3차 task</br>
      - storageView를 눌렀을 때 login하라는 alert 띄워주기</br>
         - <img width="267" alt="image" src="https://user-images.githubusercontent.com/77050826/164504009-9c070c7a-9cf5-4e33-b493-94b8352d0365.png"></br>
-           - tag와 selection을 사용하여 구현해야함.
+           - tag와 selection을 사용하여 구현해야함.</br>
+           - binding으로 alert을 띄우는 액션을 가져와야함
