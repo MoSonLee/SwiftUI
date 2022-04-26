@@ -174,3 +174,8 @@
            - binding으로 alert을 띄우는 액션을 가져와야함</br>
            - binding까지는 성공 그러나 home에서 home화면을 누르면 modal이 뜬느 오류에 부딪혔다..!</br>
            - customtabView로 바꿔서 진행중입니다</br>
+              - customtabView로 뷰구성 완료</br>
+              - ![image](https://user-images.githubusercontent.com/77050826/165345288-72137605-bcbd-468b-ba08-76a19ef504d5.png)</br>
+              - customTabㅍ
+   
+
