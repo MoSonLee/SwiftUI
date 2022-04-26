@@ -173,4 +173,4 @@
            - tag와 selection을 사용하여 구현해야함.</br>
            - binding으로 alert을 띄우는 액션을 가져와야함</br>
            - binding까지는 성공 그러나 home에서 home화면을 누르면 modal이 뜬느 오류에 부딪혔다..!</br>
-           - customtabView로 바꿔서 진행해보는중..!</br>
+           - customtabView로 바꿔서 진행중입니다</br>
