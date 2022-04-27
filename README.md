@@ -177,5 +177,7 @@
               - customtabView로 뷰구성 완료</br>
                  - <img src = "https://user-images.githubusercontent.com/77050826/165345288-72137605-bcbd-468b-ba08-76a19ef504d5.png" width="300px"> </br>
                  - customTab button action에서 처리해줘야하므로 home과 storage를 pullback 받아오는게 맞을까?</br>
+                    - 아니었다! CustomTabView는 말그대로 view</br>
+                    - action은 MaintabCore에서 해주는것</br>
    
 
