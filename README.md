@@ -179,5 +179,7 @@
                  - customTab button action에서 처리해줘야하므로 home과 storage를 pullback 받아오는게 맞을까?</br>
                     - 아니었다! CustomTabView는 말그대로 view</br>
                     - action은 MaintabCore에서 해주는것</br>
+   - 4차 task</br>
+      - model 타입 지정
    
 
