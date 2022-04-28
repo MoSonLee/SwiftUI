@@ -180,6 +180,9 @@
                     - 아니었다! CustomTabView는 말그대로 view</br>
                     - action은 MaintabCore에서 해주는것</br>
    - 4차 task</br>
-      - model 타입 지정
+      - model 타입 지정</br>
+         - 나중에 서버와 통신을 용이하게 할 수 있게 model type을 지정해주었습니다(가상의 값)</br>
+         - mock data를 추가해주었습니다</br>
+            - 아직 mock data로 디버깅 테스트를 해주지느 못했습니다!</br>
    
 
