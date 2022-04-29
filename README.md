@@ -1,7 +1,7 @@
 # swiftUI + Combine + TCA + MongsilProject</br>
 
 ### MONGSIL
-   - [https://github.com/MoSonLee/swiftUI_Combine_TCA/blob/main/MongsilProject%20Readme.md]
+   - **[mogsil_project](https://github.com/MoSonLee/swiftUI_Combine_TCA/blob/main/MongsilProject%20Readme.md)**</br>
 
 ### MyAssets app 구현
    ➡️ swiftUI를 사용하여 구현</br>
