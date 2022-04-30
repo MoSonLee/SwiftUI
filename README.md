@@ -142,6 +142,7 @@
       - Environment: API client와 같이 앱이 필요로 하는 의존성(dependancy)을 가지고 있는 타입 </br>
       - Reducer: 어떤 action이 주어졌을 때 지금 state를 다음 상태로 변환시키는 방법을 가지고 있는 함수. 또한 reducer는 실행할 수 있는 effect를 반환해야 한다. 보통 Effect 값을 반환해준다.</br>
       - Store: 실제로 기능이 작동하는 공간. 사용자의 Action을 보내 Store는 Reducer와 Effect를 실행할 수 있다. 또한 store에서 일어나는 state 변화를 observe해서 ui를 업데이트할 수 있다. </br>
+   - 비동기처리를 거친다. State, Action, reducer(pullback으로 다른 클래스를 상속받아 올 수 있음)
  
    
  ### ISSUES
