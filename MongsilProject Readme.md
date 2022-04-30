@@ -50,4 +50,5 @@
    - ![Simulator Screen Recording - iPhone 13 - 2022-04-30 at 13 30 37](https://user-images.githubusercontent.com/77050826/166091065-e6fce45d-9784-4af0-82e8-0d7b23d677ce.gif)</br>
 - 로그인 완료시</br>
    - ![Simulator Screen Recording - iPhone 13 - 2022-04-30 at 13 31 16](https://user-images.githubusercontent.com/77050826/166091100-cdaceeaf-9c79-47e5-843f-fe693c0dc9d4.gif)</br>
-   - 
+   - 구현한 코드: 기본 tabView에서 화면 전환해주는 코드, back button을 눌렀을 때 화면 뒤로 이동시키는 action, recordButton을 눌렀을 때 navigationLink를 사용해 화면 전환 코드, model type 지정
+      - 메인 코더님의 code review, refactoring, 페어 코딩으로 직접 습득하며 도움을 받아 구현하고 있씁니다.!</br>
