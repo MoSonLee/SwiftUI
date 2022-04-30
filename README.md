@@ -144,4 +144,10 @@
       - Store: 실제로 기능이 작동하는 공간. 사용자의 Action을 보내 Store는 Reducer와 Effect를 실행할 수 있다. 또한 store에서 일어나는 state 변화를 observe해서 ui를 업데이트할 수 있다. </br>
  
    
-
+ ### ISSUES
+   - https://github.com/MoSonLee/swiftUI_Combine_TCA/issues/5#issue-1209940513</br>
+   - https://github.com/MoSonLee/swiftUI_Combine_TCA/issues/4#issuecomment-1101384384</br>
+   - https://github.com/MoSonLee/swiftUI_Combine_TCA/issues/3#issue-1206397848</br>
+   - https://github.com/MoSonLee/swiftUI_Combine_TCA/issues/2#issue-1200157311</br>
+   - https://github.com/MoSonLee/swiftUI_Combine_TCA/issues/1#issue-1197499700</br>
+    
