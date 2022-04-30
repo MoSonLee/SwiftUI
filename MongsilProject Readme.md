@@ -44,5 +44,10 @@
             - 아직 mock data로 디버깅 테스트를 해주지느 못했습니다!</br>
             - model type 지정 완료
                - <img width="300" alt="image" src="https://user-images.githubusercontent.com/77050826/166090654-af0c89ae-c614-4517-aac3-0f05a71961c1.png">
-
-   
+               
+### 4/30 현재까지 구현된 상태
+- 로그인이 되지 않았을 떄</br>
+   - ![Simulator Screen Recording - iPhone 13 - 2022-04-30 at 13 30 37](https://user-images.githubusercontent.com/77050826/166091065-e6fce45d-9784-4af0-82e8-0d7b23d677ce.gif)</br>
+- 로그인 완료시</br>
+   - ![Simulator Screen Recording - iPhone 13 - 2022-04-30 at 13 31 16](https://user-images.githubusercontent.com/77050826/166091100-cdaceeaf-9c79-47e5-843f-fe693c0dc9d4.gif)</br>
+   - 
