@@ -45,7 +45,10 @@
             - model type 지정 완료
                - <img width="300" alt="image" src="https://user-images.githubusercontent.com/77050826/166090654-af0c89ae-c614-4517-aac3-0f05a71961c1.png"></br>
    - 5차 task
-      - 기록하기 첫화면 뷰 and core 작성
+      - 기록하기 첫화면 뷰 and core 작성</br>
+      - button을 tab했을시 datePicker 띄워주기</br>
+      - 글자 수 제한 함수 만들어주기</br>
+      - layout 맞춰주기</br>
                
 ### 4/30 현재까지 구현된 상태
 - 로그인이 되지 않았을 떄</br>
