@@ -47,6 +47,7 @@
    - 5차 task
       - 기록하기 첫화면 뷰 and core 작성</br>
       - button을 tab했을시 datePicker 띄워주기</br>
+         - navigationLink를 사용하는건 어떨까? -> 시도중</br>
       - 글자 수 제한 함수 만들어주기</br>
       - autoLayout 맞춰주기(swiftui로 맞춰는거에 애로사항이 있다 ㅜㅜ)</br>
                
