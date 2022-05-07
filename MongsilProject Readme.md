@@ -48,7 +48,7 @@
       - 기록하기 첫화면 뷰 and core 작성</br>
       - button을 tab했을시 datePicker 띄워주기</br>
       - 글자 수 제한 함수 만들어주기</br>
-      - layout 맞춰주기</br>
+      - autoLayout 맞춰주기(swiftui로 맞춰는거에 애로사항이 있다 ㅜㅜ)</br>
                
 ### 4/30 현재까지 구현된 상태
 - 로그인이 되지 않았을 떄</br>
