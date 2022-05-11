@@ -50,6 +50,7 @@
          - navigationLink를 사용하는건 어떨까? -> 시도중 -> 개소리였다 </br>
       - 글자 수 제한 함수 만들어주기 -> 해결완료</br>
       - autoLayout 맞춰주기(swiftui로 맞춰는거에 애로사항이 있다 ㅜㅜ)</br>
+      - 
                
 ### 4/30 현재까지 구현된 상태
 - 로그인이 되지 않았을 떄</br>
@@ -58,3 +59,11 @@
    - ![Simulator Screen Recording - iPhone 13 - 2022-04-30 at 13 31 16](https://user-images.githubusercontent.com/77050826/166091100-cdaceeaf-9c79-47e5-843f-fe693c0dc9d4.gif)</br>
    - 구현한 코드: 기본 tabView에서 화면 전환해주는 코드, back button을 눌렀을 때 화면 뒤로 이동시키는 action, recordButton을 눌렀을 때 navigationLink를 사용해 화면 전환 코드, model type 지정
       - 메인 코더님의 code review, refactoring, 페어 코딩으로 직접 습득하며 도움을 받아 구현하고 있씁니다.!</br>
+
+
+ ### issues
+  - 1. datePicker 뷰 구현 ( core에서 currentDate를 바인딩 시키면서 해야할거 같음)</br>
+  - 2. datePicker 버튼을 String으로 맞춰주기( DatePicker 뷰에서 같이 해줘야 할 거 같음!)</br>
+  - 3. 글자 수 제한 마지막 글자를 더 치면 삭제하게 구현하는게 괜찮은지? ( 지금 함수 로직은 문제가 없다고 생각하고 removelast쪽을 바꿔줘야할거 같음)</br>
+  - 4. 키보드를 띄웠을 때 화면이 같이 올라가는게 맞는 것인지? (아니면 그걸 막는 방법이 있는지?)</br>
+  - 5. layout을 맞춰줄때 counttextfieled 같은 경우 위에 200 아래 300 이면 알아서 offset으로 비율을 ration로 내가 계산해서 잡아주는것인지?( 예를들어 좌표로 300, 200) 이런식으로 잡으면 다른 기기에선 다르게 뜰테니?)</br>
