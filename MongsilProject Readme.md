@@ -64,7 +64,6 @@
 Uploading Simulator Screen Recording - iPhone 13 - 2022-05-13 at 00.55.28.mp4…</br>
 
 
-
  ### issues
   - 1. datePicker 뷰 구현 ( core에서 currentDate를 바인딩 시키면서 해야할거 같음)</br>
   - 2. datePicker 버튼을 String으로 맞춰주기( DatePicker 뷰에서 같이 해줘야 할 거 같음!)</br>
