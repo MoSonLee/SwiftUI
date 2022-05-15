@@ -73,4 +73,4 @@ Uploading Simulator Screen Recording - iPhone 13 - 2022-05-13 at 00.55.28.mp4…
    - 6. 키보드를 내려주는 액션(빈공간을 선택시)</br>
       - <img width="300" alt="image" src="https://user-images.githubusercontent.com/77050826/168096147-f71f4622-724b-4c3b-9d4e-e148bb697a0c.png"></br>
       - <img width="292" alt="image" src="https://user-images.githubusercontent.com/77050826/168096224-31b78981-72cd-408b-88e3-ae130590250b.png"></br>
-
+   - 7. keybord에 버튼을 toolbar로 추가 -> 각 키보드 별로하는 것이 가능할까?</br>
