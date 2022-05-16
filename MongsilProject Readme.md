@@ -74,3 +74,6 @@ Uploading Simulator Screen Recording - iPhone 13 - 2022-05-13 at 00.55.28.mp4…
       - <img width="300" alt="image" src="https://user-images.githubusercontent.com/77050826/168096147-f71f4622-724b-4c3b-9d4e-e148bb697a0c.png"></br>
       - <img width="292" alt="image" src="https://user-images.githubusercontent.com/77050826/168096224-31b78981-72cd-408b-88e3-ae130590250b.png"></br>
    - 7. keybord에 버튼을 toolbar로 추가 -> 각 키보드 별로하는 것이 가능할까?</br>
+      - 가능은 하나 너무 많은 시간이 소요됨 -> 안하기로 결정 </br>
+   - 8. 이미지를 잡고 색상을 변경해주고 싶을떄
+   - <img width="259" alt="image" src="https://user-images.githubusercontent.com/77050826/168626470-55a4f9f5-8f68-4138-b855-38e99bd770cf.png">
