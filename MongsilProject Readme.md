@@ -64,6 +64,9 @@
  ### 5/13 현재 구현된 상태
 Uploading Simulator Screen Recording - iPhone 13 - 2022-05-13 at 00.55.28.mp4…</br>
 
+### 5/21 현재 구현된 상태
+회원 로그아웃, 탈퇴, makersView 빼고 모두 구현 완료</br>
+
 
  ### issues
   - 1. datePicker 뷰 구현 ( core에서 currentDate를 바인딩 시키면서 해야할거 같음)</br>
