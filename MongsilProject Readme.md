@@ -68,6 +68,7 @@ Uploading Simulator Screen Recording - iPhone 13 - 2022-05-13 at 00.55.28.mp4…
 
 ### 5/21 현재 구현된 상태
 회원 로그아웃, 탈퇴, makersView 빼고 모두 구현 완료</br>
+pop to root view에서 문제를 겪고 있음
 
 
  ### issues
