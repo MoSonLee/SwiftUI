@@ -51,7 +51,9 @@
       - 글자 수 제한 함수 만들어주기 -> 해결완료</br>
       - autoLayout 맞춰주기(swiftui로 맞춰는거에 애로사항이 있다 ㅜㅜ)</br>
   - 6차 task
-     - settingView and settinfcore 구현하기</
+     - settingView and settingcore 구현하기</br>
+     - layout 전면 수정 완료.</br>
+     - 만든사람들 view + 로그아웃, 회원탈퇴 logic 구현 남음</br>
                
 ### 4/30 현재까지 구현된 상태
 - 로그인이 되지 않았을 떄</br>
