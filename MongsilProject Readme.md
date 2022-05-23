@@ -63,12 +63,12 @@
    - 구현한 코드: 기본 tabView에서 화면 전환해주는 코드, back button을 눌렀을 때 화면 뒤로 이동시키는 action, recordButton을 눌렀을 때 navigationLink를 사용해 화면 전환 코드, model type 지정
       - 메인 코더님의 code review, refactoring, 페어 코딩으로 직접 습득하며 도움을 받아 구현하고 있씁니다.!</br>
 
- ### 5/13 현재 구현된 상태
-Uploading Simulator Screen Recording - iPhone 13 - 2022-05-13 at 00.55.28.mp4…</br>
-
 ### 5/21 현재 구현된 상태
-회원 로그아웃, 탈퇴, makersView 빼고 모두 구현 완료</br>
-pop to root view에서 문제를 겪고 있음
+   - 회원 로그아웃, 탈퇴, makersView 빼고 모두 구현 완료</br>
+   - pop to root view에서 문제를 겪고 있음 -> 해결 완료</br>
+   - makers view 구현 완료</br>
+      - ![Simulator Screen Recording - iPhone 12 - 2022-05-23 at 22 58 29](https://user-images.githubusercontent.com/77050826/169840481-aaad1050-52a8-4ba2-ae3d-a5b3819891d3.gif)
+
 
 
  ### issues
