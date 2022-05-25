@@ -133,7 +133,7 @@
          - .filter{ $0 % 2 == 1 }을 추가시 홀수들만 publish되는 것이다.</br>
       - tryFilter: 위와 같은 맥락이다. 그래도 다시 얘기하자면 try가 붙으면 error값을 보여주는 closure를 넣어줄 수 있다는 것이다.</br>
       - compactMap: pusblisher 스트림에 있는 nil을 제거한후 나머지만 다운스트림 해준다.</br>
-         - 배열 [1,2,3,4,nill]이 있다고 가정하면 1,2,3,4만 남겨주는 것이다
+         - 배열 [1,2,3,4,nill]이 있다고 가정하면 1,2,3,4만 남겨주는 것이다</br>
 
 ### The composable Architecture
    - composable architecture의  다섯가지 필수 타입</br>
