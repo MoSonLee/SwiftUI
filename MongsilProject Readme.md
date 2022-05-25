@@ -1,7 +1,7 @@
  ### MONGSIL PROJECT 
    - Mongsil Project 다이어그램</br>
       - ![image](https://user-images.githubusercontent.com/77050826/163538697-42d666d6-5054-4c4e-aa08-abed329e1b90.png)</br>
-   - 화면 변환 버튼 구현 완료</br></br>
+   - 화면 변환 버튼 구현 완료</br>
    - 초기 화면 구현</br>
    ![Simulator Screen Recording - iPhone 12 - 2022-04-14 at 00 47 03](https://user-images.githubusercontent.com/77050826/163227703-cba64956-d2c1-4992-a8c1-3791c9099d67.gif)</br>
    - GeometryReader을 사용해 뷰의 크기를 알아와 button의 layout을 잡아줌</br>
@@ -70,8 +70,7 @@
    - pop to root view에서 문제를 겪고 있음 -> 해결 완료</br>
    - makers view 구현 완료</br>
       - ![Simulator Screen Recording - iPhone 12 - 2022-05-23 at 22 58 29](https://user-images.githubusercontent.com/77050826/169840481-aaad1050-52a8-4ba2-ae3d-a5b3819891d3.gif)
-
-
+      - refactoring 
 
  ### issues
   - 1. datePicker 뷰 구현 ( core에서 currentDate를 바인딩 시키면서 해야할거 같음)</br>
