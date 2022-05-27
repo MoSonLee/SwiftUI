@@ -54,6 +54,7 @@
      - settingView and settingcore 구현하기</br>
      - layout 전면 수정 완료.</br>
      - 만든사람들 view + 로그아웃, 회원탈퇴 logic 구현 남음</br>
+     - UserDefaults -> sharedState 이용으로 변경중</br>
                
 ### 4/30 현재까지 구현된 상태
 - 로그인이 되지 않았을 떄</br>
