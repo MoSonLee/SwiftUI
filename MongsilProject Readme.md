@@ -41,7 +41,8 @@
       - model 타입 지정</br>
          - 나중에 서버와 통신을 용이하게 할 수 있게 model type을 지정해주었습니다(가상의 값)</br>
          - mock data를 추가해주었습니다</br>
-            - 아직 mock data로 디버깅 테스트를 해주지느 못했습니다!</br>
+            - 아직 mock data로 디버깅 테스트를 해주지는 못했습니다!</br>
+               - 목데이터 디버깅 테스트 완료</br>
             - model type 지정 완료
                - <img width="300" alt="image" src="https://user-images.githubusercontent.com/77050826/166090654-af0c89ae-c614-4517-aac3-0f05a71961c1.png"></br>
    - 5차 task
