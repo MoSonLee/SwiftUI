@@ -61,8 +61,8 @@
      - 완료</br>
   - 7차 task
      - 로그인 뷰 refactoring</br>
-     - ![image](https://user-images.githubusercontent.com/77050826/171040459-76be0163-d53f-408d-8533-c89fb631d535.png)</br>
-        - 문제점: 이미지의 원본 비율을 탭뷰안에서 유지해주면서 다른 text들에 영향을 안 가게 하는법이 있을까?</br>
+     - ![Simulator Screen Recording - iPhone 13 Pro Max - 2022-05-31 at 02 36 15](https://user-images.githubusercontent.com/77050826/171040790-36f69ffc-8cfb-4013-a46f-642ef42cc93b.gif)</br>
+     - 문제점: 이미지의 원본 비율을 탭뷰안에서 유지해주면서 다른 text들에 영향을 안 가게 하는법이 있을까?</br>
                
 ### 4/30 현재까지 구현된 상태
 - 로그인이 되지 않았을 떄</br>
