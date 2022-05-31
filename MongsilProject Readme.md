@@ -23,9 +23,9 @@
       - back button이 눌렸을 때 이전 화면으로 이동 https://github.com/MoSonLee/swiftUI_Combine_TCA/issues/4#issuecomment-1101384384</br>
       - 미리 모듈로 만들어준 navigationbar을 사용해줌.</br>
   
-  - 2차 task</br>
+  - **2차 task 완료**
       - 보관함 설정 아이콘에 SettingView와 Core연결하기</br>
-  - 3차 task</br>
+  - **3차 task 완료**
      - storageView를 눌렀을 때 login하라는 alert 띄워주기</br>
         - <img width="267" alt="image" src="https://user-images.githubusercontent.com/77050826/164504009-9c070c7a-9cf5-4e33-b493-94b8352d0365.png"></br>
            - tag와 selection을 사용하여 구현해야함.</br>
@@ -37,7 +37,7 @@
                  - customTab button action에서 처리해줘야하므로 home과 storage를 pullback 받아오는게 맞을까?</br>
                     - 아니었다! CustomTabView는 말그대로 view</br>
                     - action은 MaintabCore에서 해주는것</br>
-   - 4차 task</br>
+   - **4차 task 완료**
       - model 타입 지정</br>
          - 나중에 서버와 통신을 용이하게 할 수 있게 model type을 지정해주었습니다(가상의 값)</br>
          - mock data를 추가해주었습니다</br>
@@ -45,13 +45,13 @@
                - 목데이터 디버깅 테스트 완료</br>
             - model type 지정 완료
                - <img width="300" alt="image" src="https://user-images.githubusercontent.com/77050826/166090654-af0c89ae-c614-4517-aac3-0f05a71961c1.png"></br>
-   - 5차 task
+   - **5차 task 완료**
       - 기록하기 첫화면 뷰 and core 작성</br>
       - button을 tab했을시 datePicker 띄워주기</br>
          - navigationLink를 사용하는건 어떨까? -> 시도중 -> 개소리였다 </br>
       - 글자 수 제한 함수 만들어주기 -> 해결완료</br>
       - autoLayout 맞춰주기(swiftui로 맞춰는거에 애로사항이 있다 ㅜㅜ)</br>
-  - 6차 task
+  - **6차 task 완료**
      - settingView and settingcore 구현하기</br>
      - layout 전면 수정 완료.</br>
      - 만든사람들 view + 로그아웃, 회원탈퇴 logic 구현 남음</br>
@@ -59,10 +59,17 @@
         - 완료</br>
      - 코드 전반적 리팩토링중입니다.</br> 
      - 완료</br>
-  - 7차 task
+  - **7차 task**
      - 로그인 뷰 refactoring</br>
      - ![Simulator Screen Recording - iPhone 13 Pro Max - 2022-05-31 at 02 36 15](https://user-images.githubusercontent.com/77050826/171040790-36f69ffc-8cfb-4013-a46f-642ef42cc93b.gif)</br>
      - 문제점: 이미지의 원본 비율을 탭뷰안에서 유지해주면서 다른 text들에 영향을 안 가게 하는법이 있을까?</br>
+        - 없다. 패딩으로 이미지를 잡아준다 -> 이미지 비율이 꺠짐</br>
+        - 이미지 원본 비율 유지 -> 레이아웃이 바뀌는건 당연한 일(디자인 팀에서 그걸 고려해서 이미지를 주지 않았음)</br>
+        - 이미지의 원본 비율을 유지하는 것 1순위 -> 따라서 각 다른 디바이스별로 패딩이 달라질 수 있는걸 감안하고 잡아줘야함</br>
+     - 카카오, 애플 로그인 버튼를 패딩으로 레이아웃을 잡아줬을 때 생기는 문제</br>
+        - 디자인 팀에서 준 이미지로 생각해 보면 큰 기기에서 버튼 이미지가 늘어나며 안에 있는 텍스트가 늘어나 보이는건 당연함</br>
+           - 강제적으로 frame으로 크기를 잡아줘 모든 디바이스에서 같은 크기를 유지하게 함</br>
+           - 기기별 패딩 값이 다를 수는 있찌만 감안해야 할 부분</br>
                
 ### 4/30 현재까지 구현된 상태
 - 로그인이 되지 않았을 떄</br>
