@@ -88,11 +88,14 @@
    - 회원 로그아웃, 탈퇴, makersView 빼고 모두 구현 완료</br>
       - 로그아웃 구현완료(카카오, 애플)</br>
       - 서버 오류로 탈퇴 확인 불가능한 상태</br>
-   - pop to root view에서 문제를 겪고 있음 -> 해결 완료</br>
+   - pop to root view에서 문제를 겪고 있음 -> uikit func를 가져와서 사용 + maintab의 selection을 home으로 바꿔줌 -> 해결 완료</br>
    - makers view 구현 완료</br>
       - ![Simulator Screen Recording - iPhone 12 - 2022-05-23 at 22 58 29](https://user-images.githubusercontent.com/77050826/169840481-aaad1050-52a8-4ba2-ae3d-a5b3819891d3.gif)</br>
       - makersView foreach 사용하여 refactor완료</br>
       - 추가적 layout 수정 완료</br>
+
+### 6/2 현재 구현된 상태
+
 
  ### issues
   - 1. datePicker 뷰 구현 ( core에서 currentDate를 바인딩 시키면서 해야할거 같음)</br>
