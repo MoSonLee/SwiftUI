@@ -92,6 +92,7 @@
    - makers view 구현 완료</br>
       - ![Simulator Screen Recording - iPhone 12 - 2022-05-23 at 22 58 29](https://user-images.githubusercontent.com/77050826/169840481-aaad1050-52a8-4ba2-ae3d-a5b3819891d3.gif)</br>
       - makersView foreach 사용하여 refactor완료</br>
+      - 추가적 layout 수정 완료</br>
 
  ### issues
   - 1. datePicker 뷰 구현 ( core에서 currentDate를 바인딩 시키면서 해야할거 같음)</br>
