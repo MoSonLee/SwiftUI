@@ -94,8 +94,8 @@
       - makersView foreach 사용하여 refactor완료</br>
       - 추가적 layout 수정 완료</br>
 
-### 6/2 현재 구현된 상태
-
+### 6/4 현재 구현된 상태
+   - 기록하기, 검색하기 뷰만 남은 상태</br>
 
  ### issues
   - 1. datePicker 뷰 구현 ( core에서 currentDate를 바인딩 시키면서 해야할거 같음)</br>
