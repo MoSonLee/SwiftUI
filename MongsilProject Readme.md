@@ -97,6 +97,9 @@
 ### 6/4 현재 구현된 상태
    - 기록하기, 검색하기 뷰만 남은 상태</br>
 
+### 6/7 현재 발견된 issue
+   - 회원탈퇴가 제대로 실행되지 않음 -> 확인결과 서버는 이상 없음 sharedState의 userID를 지워지는 로직의 순서 문제인듯함
+
  ### issues
   - 1. datePicker 뷰 구현 ( core에서 currentDate를 바인딩 시키면서 해야할거 같음)</br>
   - 2. datePicker 버튼을 String으로 맞춰주기( DatePicker 뷰에서 같이 해줘야 할 거 같음!)</br>
