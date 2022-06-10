@@ -107,7 +107,9 @@
   - 2. datePicker 버튼을 String으로 맞춰주기( DatePicker 뷰에서 같이 해줘야 할 거 같음!)</br>
   - 3. 글자 수 제한 마지막 글자를 더 치면 삭제하게 구현하는게 괜찮은지? ( 지금 함수 로직은 문제가 없다고 생각하고 removelast쪽을 바꿔줘야할거 같음)</br>
   - 4. 키보드를 띄웠을 때 화면이 같이 올라가는게 맞는 것인지? (아니면 그걸 막는 방법이 있는지?)</br>
-  - 5. layout을 맞춰줄때 counttextfieled 같은 경우 위에 200 아래 300 이면 알아서 offset으로 비율을 ration로 내가 계산해서 잡아주는것인지?( 예를들어 좌표로 300, 200) 이런식으로 잡으면 다른 기기에선 다르게 뜰테니?)</br>
+     - Solution: 화면을 같이 안 올라가게 설정해줄 수 있음</br>
+  - 5. layout을 맞춰줄때 counttextfieled 같은 경우 위에 200 아래 300 이면 알아서 offset으로 비율을 ratio로 내가 계산해서 잡아주는것인지?( 예를들어 좌표로 300, 200) 이런식으로 잡으면 다른 기기에선 다르게 뜰테니?)</br>
+     - Solution: 각 기기별로 화면 크기가 다를테니 padding으로 잡아주는 것이 안정적임</br?
    - 6. 키보드를 내려주는 액션(빈공간을 선택시)</br>
       - <img width="300" alt="image" src="https://user-images.githubusercontent.com/77050826/168096147-f71f4622-724b-4c3b-9d4e-e148bb697a0c.png"></br>
       - <img width="292" alt="image" src="https://user-images.githubusercontent.com/77050826/168096224-31b78981-72cd-408b-88e3-ae130590250b.png"></br>
