@@ -74,7 +74,8 @@
               - ![Simulator Screen Recording - iPhone 13 Pro Max - 2022-06-01 at 16 26 02](https://user-images.githubusercontent.com/77050826/171358842-61d5fd99-33a9-4210-b1a2-e1dfccb7f9d4.gif)</br>
               - 알럿창 위치는 추후에 변경해주기로 했음</br>
 
-           
+   - **8차 task(마지막 task)**
+      - mock데이터로 넣어놓은 값들 api 통신으로 바꿔주기</br>
                
 ### 4/30 현재까지 구현된 상태
 - 로그인이 되지 않았을 떄</br>
