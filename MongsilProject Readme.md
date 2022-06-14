@@ -104,7 +104,8 @@
 
 ### 6/12 현재 구현된 상태
    - 기록하기, 검색하기와 연관 api는 연결해주지 못한 상태</br>
-   - 유저 꿈 작성 api forkey를 String -> Array로 수정 요청한 상태</br>
+   - 유저 꿈 작성 api forkey를 String -> Array로 수정 요청한 상태 -> 완료</br>
+   - testCode 작성에 문제를 겪고 있음</br>
 
  ### issues
   - 1. datePicker 뷰 구현 ( core에서 currentDate를 바인딩 시키면서 해야할거 같음)</br>
