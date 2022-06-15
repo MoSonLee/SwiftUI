@@ -106,6 +106,15 @@
    - 기록하기, 검색하기와 연관 api는 연결해주지 못한 상태</br>
    - 유저 꿈 작성 api forkey를 String -> Array로 수정 요청한 상태 -> 완료</br>
    - testCode 작성에 문제를 겪고 있음</br>
+   - 
+### 6/16 현재 구현된 상태
+   - 유저 다이어리 리스트를 받아오는 api fix complete</br>
+   - ![Simulator Screen Recording - iPhone 13 Pro Max - 2022-06-16 at 02 13 08](https://user-images.githubusercontent.com/77050826/173890283-9793e930-6b31-48ff-9c79-fb5d0f752b2e.gif)</br>
+      - 삭제하기 관련 오류가 있는 상태 -> 서버 오류로 판단된다.</br>
+         - <img width="672" alt="image" src="https://user-images.githubusercontent.com/77050826/173890486-e1350f2b-dddd-4e97-9055-aad5d8cf74a8.png"></br>
+         - <img width="740" alt="image" src="https://user-images.githubusercontent.com/77050826/173890424-3ff78969-d0e3-4195-a722-72e431e7c1b8.png">
+      - 삭제하기 관련 오류가 있는 상태 -> 서버 오류로 판단된다.</br>
+      - postman에서 확인해봤을 때 유저 카드 id를 삭제하기 넣으면 안된다. -> 서버에 수정 요청 예정</br>
 
  ### issues
   - 1. datePicker 뷰 구현 ( core에서 currentDate를 바인딩 시키면서 해야할거 같음)</br>
