@@ -116,6 +116,10 @@
       - 삭제하기 관련 오류가 있는 상태 -> 서버 오류로 판단된다.</br>
       - postman에서 확인해봤을 때 유저 카드 id를 삭제하기 넣으면 안된다. -> 서버에 수정 요청 예정</br>
 
+### 6/19 혀ㄴ재 구현된 상태
+   - Diary delete, set 로직 연결 완료
+   - onAppear 할 때 diarycount를 진행하면 set 되는 속도 보다 느려 0으로 출력되는 문제 발생 -> set 시키면서 같이 count를 해줘서 문제 해결(delete 할 때도 마찬가지)
+
  ### issues
   - 1. datePicker 뷰 구현 ( core에서 currentDate를 바인딩 시키면서 해야할거 같음)</br>
   - 2. datePicker 버튼을 String으로 맞춰주기( DatePicker 뷰에서 같이 해줘야 할 거 같음!)</br>
