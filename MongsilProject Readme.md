@@ -74,9 +74,12 @@
               - ![Simulator Screen Recording - iPhone 13 Pro Max - 2022-06-01 at 16 26 02](https://user-images.githubusercontent.com/77050826/171358842-61d5fd99-33a9-4210-b1a2-e1dfccb7f9d4.gif)</br>
               - 알럿창 위치는 추후에 변경해주기로 했음</br>
 
-   - **8차 task(마지막 task)**
-      - mock데이터로 넣어놓은 값들 api 통신으로 바꿔주기</br>
-               
+   - **8차 task**
+      - mock데이터로 넣어놓은 값들 api 통신으로 바꿔주기 -> 완료</br>
+      
+   - **9차 최종 task**
+      - 간단한 task -> 기록, 검색하기 플로우가 완료되면 뷰 이동 연결해주기</br>
+      
 ### 4/30 현재까지 구현된 상태
 - 로그인이 되지 않았을 떄</br>
    - ![Simulator Screen Recording - iPhone 13 - 2022-04-30 at 13 30 37](https://user-images.githubusercontent.com/77050826/166091065-e6fce45d-9784-4af0-82e8-0d7b23d677ce.gif)</br>
@@ -116,9 +119,14 @@
       - 삭제하기 관련 오류가 있는 상태 -> 서버 오류로 판단된다.</br>
       - postman에서 확인해봤을 때 유저 카드 id를 삭제하기 넣으면 안된다. -> 서버에 수정 요청 예정</br>
 
-### 6/19 혀ㄴ재 구현된 상태
-   - Diary delete, set 로직 연결 완료
+### 6/19 현재 구현된 상태
+   - Diary delete, set 로직 연결 완료</br>
    - onAppear 할 때 diarycount를 진행하면 set 되는 속도 보다 느려 0으로 출력되는 문제 발생 -> set 시키면서 같이 count를 해줘서 문제 해결(delete 할 때도 마찬가지)
+
+### 6/21 현재 구현된 상태
+   - 최종 task만 남은 상태</br>
+   - 6/25 심사 예정</br>
+   - **7/2 최종 발표!**</br>
 
  ### issues
   - 1. datePicker 뷰 구현 ( core에서 currentDate를 바인딩 시키면서 해야할거 같음)</br>
