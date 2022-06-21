@@ -142,4 +142,8 @@
    - 7. keybord에 버튼을 toolbar로 추가 -> 각 키보드 별로하는 것이 가능할까?</br>
       - 가능은 하나 너무 많은 시간이 소요됨 -> 안하기로 결정 </br>
    - 8. 이미지를 잡고 색상을 변경해주고 싶을떄
-   - <img width="259" alt="image" src="https://user-images.githubusercontent.com/77050826/168626470-55a4f9f5-8f68-4138-b855-38e99bd770cf.png">
+      - <img width="259" alt="image" src="https://user-images.githubusercontent.com/77050826/168626470-55a4f9f5-8f68-4138-b855-38e99bd770cf.png">
+   - 9. Diarycount가 제대로 작동하지 않을 때</br>
+      - https://github.com/MoSonLee/swiftUI_Combine_TCA/issues/11#issue-1276452109</br>
+   - 10. API를 연결해 Diary를 받아올 때 때 발생한 네트워크 오류</br>
+      - https://github.com/MoSonLee/swiftUI_Combine_TCA/issues/10#issue-1272169951
