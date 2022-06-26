@@ -132,7 +132,10 @@
 
 ### 6/25 
    - 클라 최종 대응 끝!</br>
-### 7/2 최종 발표!
+
+### 6/26
+   - 성공적으로 출시되었습니다!
+   - [<img src="https://user-images.githubusercontent.com/72292617/175788259-834fade7-30e3-4d7b-969d-06a38ab33fb2.png" width=300 height=100>](https://apps.apple.com/us/app/몽실-mong-seal/id1622154270)   
 
  ### issues
   - 1. datePicker 뷰 구현 ( core에서 currentDate를 바인딩 시키면서 해야할거 같음)</br>
