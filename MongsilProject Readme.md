@@ -156,3 +156,5 @@
       - https://github.com/MoSonLee/swiftUI_Combine_TCA/issues/11#issue-1276452109</br>
    - 10. API를 연결해 Diary를 받아올 때 때 발생한 네트워크 오류</br>
       - https://github.com/MoSonLee/swiftUI_Combine_TCA/issues/10#issue-1272169951
+   - 11. 화원가입 실패 -> 로그인 성공 -> toast message가 뜬 후에 기능 이용이 불가능한 오류(모든 디바이스에서 발생하는 것이 아니라 판단하기가 까다로움)
+현재 회원가입, 로그인 로직 문제인지 서버측 회원가입 문제인지 판단이 불가함</br>
