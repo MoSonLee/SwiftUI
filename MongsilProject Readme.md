@@ -159,3 +159,6 @@
    - 11. 화원가입 실패 -> 로그인 성공 -> toast message가 뜬 후에 기능 이용이 불가능한 오류(모든 디바이스에서 발생하는 것이 아니라 판단하기가 까다로움)
 현재 회원가입, 로그인 로직 문제인지 서버측 회원가입 문제인지 판단이 불가함 -> 해결완료</br>
       - https://github.com/MoSonLee/swiftUI_Combine_TCA/issues/13#issue-1290169354
+      
+### 디프만 수료증
+   - ![image](https://user-images.githubusercontent.com/77050826/177043434-c9895fe3-57f5-4774-a37e-ff1d4f1566cc.png)
