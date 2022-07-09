@@ -73,12 +73,5 @@
 ### swiftUi에서 View가 생길 때 혹은 사라질때 코드 구현
    - onAppear: 뷰가 생길때 코드를 구현할 때</br>
    - onDisappear: 뷰가 사라질때 코드를 구현할 때</br>
- 
-   
- ### ISSUES
-   - https://github.com/MoSonLee/swiftUI_Combine_TCA/issues/5#issue-1209940513</br>
-   - https://github.com/MoSonLee/swiftUI_Combine_TCA/issues/4#issuecomment-1101384384</br>
-   - https://github.com/MoSonLee/swiftUI_Combine_TCA/issues/3#issue-1206397848</br>
-   - https://github.com/MoSonLee/swiftUI_Combine_TCA/issues/2#issue-1200157311</br>
-   - https://github.com/MoSonLee/swiftUI_Combine_TCA/issues/1#issue-1197499700</br>
+
     
